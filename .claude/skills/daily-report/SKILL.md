@@ -1,6 +1,6 @@
 ---
 name: daily-report
-description: Generate daily update reports for the Claude Code Skills resource library. Records resource additions, modifications, and deletions for the day. Use when generating today's update report, tracking daily maintenance progress, or when the user asks for a daily summary of resource changes.
+description: Generate daily update reports for the Skills resource library. Records resource additions, modifications, and deletions for the day. Use when generating today's update report, tracking daily maintenance progress, or when the user asks for a daily summary of resource changes.
 ---
 
 # 更新日报生成 Skill
@@ -49,7 +49,7 @@ description: Generate daily update reports for the Claude Code Skills resource l
 ### 输出格式
 
 ```markdown
-# Claude Code Skills 资源库更新日报
+# Skills 资源库更新日报
 
 **日期**：{YYYY-MM-DD}
 **生成时间**：{HH:MM}

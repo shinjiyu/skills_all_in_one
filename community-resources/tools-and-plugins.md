@@ -1,6 +1,8 @@
 # 工具和插件
 
-收集 Claude Code Skills 开发相关的工具和插件。
+收集 Skills 开发相关的工具和插件。
+
+**注意：** 本项目专注于 Skills 开发，只收录与 Skills 开发、SKILL.md 编写相关的工具和插件。
 
 ## 开发工具
 

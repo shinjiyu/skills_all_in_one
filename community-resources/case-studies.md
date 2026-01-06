@@ -1,6 +1,8 @@
 # 案例研究
 
-收集 Claude Code Skills 在实际项目中的应用案例。
+收集 Skills 在实际项目中的应用案例。
+
+**注意：** 本项目专注于 Skills 开发和使用，只收录 Skills 在实际项目中的应用案例。
 
 ## 企业应用案例
 
@@ -37,11 +39,11 @@
 
 ### 文档处理场景
 
-- **Claude Code 高效开发实战案例**
-  - 项目名称：Claude Code 开发实战
-  - 链接：https://hrefgo.com/blog/claude-code-development-expert-guide
-  - 描述：展示如何使用 Claude Code 进行高效开发的实战案例，包含文档处理和自动化流程
-  - 标签：文档处理、案例、自动化
+- **待补充**
+  - 项目名称：
+  - 链接：
+  - 描述：
+  - 标签：案例
 
 ### 数据分析场景
 

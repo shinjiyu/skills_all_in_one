@@ -1,6 +1,8 @@
 # 视频教程
 
-收集 Claude Code Skills 相关的视频教学资源。
+收集 Skills 相关的视频教学资源。
+
+**注意：** 本项目专注于 Skills 开发和使用，只收录与 Skills 开发、SKILL.md 编写、Skills 示例相关的视频。
 
 ## 入门视频
 
@@ -26,14 +28,14 @@
 
 ## 实战演示
 
-- **【实战教程】将GPT-5接入 Claude Code，零门槛使用！超强AI编程组合**
-  - 链接：https://www.youtube.com/watch?v=eoRTE5zXGs0
-  - 平台：YouTube
-  - 时长：待确认
-  - 描述：实战教程演示如何将 GPT-5 接入 Claude Code，展示强大的 AI 编程组合
-  - 作者：待确认
-  - 发布日期：待确认
-  - 标签：实战、演示、集成教程
+- **待补充**
+  - 链接：
+  - 平台：YouTube / Bilibili / 其他
+  - 时长：
+  - 描述：
+  - 作者：
+  - 发布日期：
+  - 标签：实战、演示
 
 ## 直播回放
 

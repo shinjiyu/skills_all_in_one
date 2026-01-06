@@ -1,11 +1,13 @@
-# Claude Code Skills 教学系列示例代码
+# Skills 教学系列示例代码
 
-本仓库包含 Claude Code Skills 教学系列文章的所有示例代码和项目。
+本仓库包含 Skills 教学系列文章的所有示例代码和项目。
+
+**项目定位：** 专注于 Skills 开发和使用，不是 Claude Code 的使用教程。
 
 ## 目录结构
 
 ```
-claude-code-skills-tutorial/
+skills-tutorial/
 ├── examples/              # 示例项目
 ├── .claude/               # Claude Code 配置
 │   └── skills/            # 项目级 Skills

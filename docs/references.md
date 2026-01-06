@@ -1,4 +1,4 @@
-# Claude Code Skills 参考资料
+# Skills 参考资料
 
 ## 官方文档链接
 

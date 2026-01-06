@@ -1,29 +1,17 @@
 # 博客文章
 
-收集 Claude Code Skills 相关的技术博客和教程文章。
+收集 Skills 相关的技术博客和教程文章。
+
+**注意：** 本项目专注于 Skills 开发和使用，不是 Claude Code 的使用教程。只收录与 Skills 开发、SKILL.md 编写、Skills 示例相关的内容。
 
 ## 入门教程
 
-- **Claude Code 教程中心 - Claude Code 智能编程助手完整指南**
-  - 链接：https://www.claudecode101.com/
-  - 描述：Claude Code 的完整学习指南，涵盖从基础入门到高级技巧
-  - 作者：Claude Code 教程中心
-  - 发布日期：待确认
-  - 标签：入门、教程、完整指南
-
-- **Claude Code 使用教程 - 详细安装配置指南**
-  - 链接：https://claudecodemirror.com/docs
-  - 描述：详细的 Claude Code 安装和配置指南，包含常见问题解决方案
-  - 作者：Claude Code Mirror
-  - 发布日期：待确认
-  - 标签：入门、教程、安装配置
-
-- **Claude Code教程大全 - 完整学习指南**
-  - 链接：https://www.claude-cn.org/claude-code-tutorials
-  - 描述：Claude Code 中文网的完整教程集合，提供系统化的学习路径
-  - 作者：Claude Code中文网
-  - 发布日期：待确认
-  - 标签：入门、教程、中文资源
+- **待补充**
+  - 链接：
+  - 描述：
+  - 作者：
+  - 发布日期：
+  - 标签：入门、教程
 
 ## 进阶教程
 
@@ -43,12 +31,12 @@
 
 ## 实战案例
 
-- **Claude Code 高效开发实战：从新手到专家的进阶指南**
-  - 链接：https://hrefgo.com/blog/claude-code-development-expert-guide
-  - 描述：从新手到专家的完整实战指南，包含实际开发案例和技巧
-  - 作者：Hrefgo AI
-  - 发布日期：待确认
-  - 标签：实战、案例、进阶指南
+- **待补充**
+  - 链接：
+  - 描述：
+  - 作者：
+  - 发布日期：
+  - 标签：实战、案例
 
 - **如何在 Claude 与 Claude Code 中创建并使用「Skills」**
   - 链接：https://apifox.com/apiskills/claude-skills/
@@ -59,12 +47,12 @@
 
 ## 最佳实践
 
-- **Claude Code最佳实践教程——使用方法详解**
-  - 链接：https://blog.axiaoxin.com/post/claude-code-usages/
-  - 描述：Claude Code 使用方法的详细最佳实践教程，包含实用技巧和注意事项
-  - 作者：阿小信的博客
-  - 发布日期：待确认
-  - 标签：最佳实践、使用方法
+- **待补充**
+  - 链接：
+  - 描述：
+  - 作者：
+  - 发布日期：
+  - 标签：最佳实践
 
 ## 技术深度分析
 

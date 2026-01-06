@@ -1,6 +1,6 @@
 ---
 name: resource-briefing
-description: Generate periodic briefings for the Claude Code Skills resource library. Summarizes new resources, popular content, and trends. Use when generating weekly reports, monthly reports, or custom time period summaries for the resource library.
+description: Generate periodic briefings for the Skills resource library. Summarizes new resources, popular content, and trends. Use when generating weekly reports, monthly reports, or custom time period summaries for the resource library.
 ---
 
 # 资源简报生成 Skill
@@ -58,7 +58,7 @@ description: Generate periodic briefings for the Claude Code Skills resource lib
 ### 输出格式
 
 ```markdown
-# Claude Code Skills 资源简报
+# Skills 资源简报
 
 **时间段**：{开始日期} - {结束日期}
 

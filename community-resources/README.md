@@ -1,6 +1,15 @@
 # 社区资源目录
 
-本目录收集 Claude Code Skills 相关的社区资源，包括示例项目、教程、博客文章等。
+本目录收集 Skills 相关的社区资源，包括示例项目、教程、博客文章等。
+
+**重要说明：** 本项目专注于 Skills 开发和使用，不是 Claude Code 的使用教程。只收录与以下内容相关的资源：
+- Skills 开发教程
+- SKILL.md 文件编写
+- Skills 最佳实践
+- Skills 示例和案例
+- Agent Skills 相关内容
+
+**排除内容：** Claude Code 安装、配置、使用教程（除非专门讲解 Skills）
 
 ## 目录结构
 

@@ -1,11 +1,11 @@
-# Claude Code Skills 教学系列文章大纲
+# Skills 教学系列文章大纲
 
-## 第1篇：Claude Code Skills 概述 - 什么是 Skills 以及它能做什么
+## 第1篇：Skills 概述 - 什么是 Skills 以及它能做什么
 
 ### 文章结构（5分钟阅读）
 
 1. **引言** (30秒)
-   - 什么是 Claude Code Skills
+   - 什么是 Skills
    - 为什么需要 Skills
 
 2. **Skills 的定义和核心概念** (1分钟)
@@ -38,7 +38,7 @@
 
 ---
 
-## 第2篇：启用和管理 Skills - 在 Claude 中使用内置 Skills
+## 第2篇：启用和管理 Skills - 在 Claude Code 中使用内置 Skills
 
 ### 文章结构（5分钟阅读）
 
