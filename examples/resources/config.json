@@ -1,0 +1,35 @@
+{
+  "application": {
+    "name": "Claude Code Skills Example",
+    "version": "1.0.0",
+    "description": "示例配置文件"
+  },
+  "settings": {
+    "default_language": "zh-CN",
+    "timeout": 30,
+    "retry_count": 3,
+    "log_level": "INFO"
+  },
+  "api": {
+    "base_url": "https://api.example.com",
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "email": {
+    "default_sender": "team@example.com",
+    "reply_to": "support@example.com",
+    "signature": "团队"
+  },
+  "templates": {
+    "welcome": "resources/templates/welcome_email.md",
+    "notification": "resources/templates/notification_email.md",
+    "reminder": "resources/templates/reminder_email.md"
+  },
+  "paths": {
+    "scripts": "scripts/",
+    "resources": "resources/",
+    "logs": "logs/"
+  }
+}
+
+

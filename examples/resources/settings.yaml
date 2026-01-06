@@ -1,0 +1,50 @@
+# 应用设置文件
+
+application:
+  name: "Claude Code Skills Example"
+  version: "1.0.0"
+  description: "示例 YAML 配置文件"
+
+settings:
+  default_language: "zh-CN"
+  timeout: 30
+  retry_count: 3
+  log_level: "INFO"
+
+api:
+  base_url: "https://api.example.com"
+  timeout: 30
+  retry_count: 3
+  endpoints:
+    weather: "/weather"
+    news: "/news"
+    data: "/data"
+
+email:
+  default_sender: "team@example.com"
+  reply_to: "support@example.com"
+  signature: "团队"
+  smtp:
+    host: "smtp.example.com"
+    port: 587
+    use_tls: true
+
+templates:
+  welcome: "resources/templates/welcome_email.md"
+  notification: "resources/templates/notification_email.md"
+  reminder: "resources/templates/reminder_email.md"
+
+paths:
+  scripts: "scripts/"
+  resources: "resources/"
+  logs: "logs/"
+  output: "output/"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/app.log"
+  max_size: "10MB"
+  backup_count: 5
+
+

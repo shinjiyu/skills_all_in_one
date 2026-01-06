@@ -1,0 +1,37 @@
+{
+  "timeouts": {
+    "default": 30,
+    "document_processing": 60,
+    "data_analysis": 120,
+    "api_call": 10
+  },
+  "caching": {
+    "enabled": true,
+    "ttl_seconds": 300,
+    "max_size_mb": 100
+  },
+  "concurrency": {
+    "max_concurrent_tasks": 10,
+    "max_concurrent_api_calls": 5
+  },
+  "resource_limits": {
+    "max_memory_mb": 512,
+    "max_cpu_percent": 80
+  },
+  "optimization": {
+    "chunk_large_files": true,
+    "chunk_size_mb": 10,
+    "async_processing": true
+  },
+  "monitoring": {
+    "collect_metrics": true,
+    "metrics_interval_seconds": 60,
+    "alert_thresholds": {
+      "error_rate_percent": 5,
+      "response_time_ms": 5000,
+      "memory_usage_percent": 90
+    }
+  }
+}
+
+

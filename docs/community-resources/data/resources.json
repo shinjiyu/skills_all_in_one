@@ -1,0 +1,21 @@
+{
+  "last_updated": "2024-01-01",
+  "version": "1.0.0",
+  "resources": {
+    "blog_posts": [],
+    "github_repositories": [],
+    "video_tutorials": [],
+    "case_studies": [],
+    "tools_and_plugins": []
+  },
+  "statistics": {
+    "total_resources": 0,
+    "by_category": {
+      "blog_posts": 0,
+      "github_repositories": 0,
+      "video_tutorials": 0,
+      "case_studies": 0,
+      "tools_and_plugins": 0
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "countries": [
+    {
+      "code": "CN",
+      "name": "中国",
+      "capital": "北京",
+      "population": 1400000000
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "capital": "华盛顿",
+      "population": 330000000
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "capital": "东京",
+      "population": 125000000
+    }
+  ],
+  "languages": [
+    {
+      "code": "zh-CN",
+      "name": "简体中文",
+      "native_name": "简体中文"
+    },
+    {
+      "code": "en-US",
+      "name": "英语（美国）",
+      "native_name": "English (US)"
+    },
+    {
+      "code": "ja-JP",
+      "name": "日语",
+      "native_name": "日本語"
+    }
+  ],
+  "timezones": [
+    {
+      "name": "Asia/Shanghai",
+      "offset": "+08:00",
+      "description": "中国标准时间"
+    },
+    {
+      "name": "America/New_York",
+      "offset": "-05:00",
+      "description": "美国东部时间"
+    },
+    {
+      "name": "Asia/Tokyo",
+      "offset": "+09:00",
+      "description": "日本标准时间"
+    }
+  ]
+}
+
+

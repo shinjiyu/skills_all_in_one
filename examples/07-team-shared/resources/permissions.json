@@ -1,0 +1,51 @@
+{
+  "roles": {
+    "admin": {
+      "permissions": [
+        "read",
+        "write",
+        "delete",
+        "manage_users",
+        "configure"
+      ]
+    },
+    "editor": {
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    "viewer": {
+      "permissions": [
+        "read"
+      ]
+    }
+  },
+  "users": {
+    "user1@example.com": {
+      "role": "admin",
+      "name": "管理员"
+    },
+    "user2@example.com": {
+      "role": "editor",
+      "name": "编辑者"
+    },
+    "user3@example.com": {
+      "role": "viewer",
+      "name": "查看者"
+    }
+  },
+  "resources": {
+    "/shared/documents": {
+      "allowed_roles": ["admin", "editor", "viewer"]
+    },
+    "/shared/reports": {
+      "allowed_roles": ["admin", "editor"]
+    },
+    "/shared/config": {
+      "allowed_roles": ["admin"]
+    }
+  }
+}
+
+

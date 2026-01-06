@@ -1,0 +1,9 @@
+# 报告目录
+
+此目录用于存储生成的简报和日报文件。
+
+## 文件命名规范
+
+- 日报：`daily-report-YYYY-MM-DD.md`
+- 周报：`weekly-report-YYYY-MM-DD.md`
+- 月报：`monthly-report-YYYY-MM-DD.md`

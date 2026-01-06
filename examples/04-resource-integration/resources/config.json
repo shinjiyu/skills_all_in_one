@@ -1,0 +1,14 @@
+{
+  "email_settings": {
+    "default_sender": "team@example.com",
+    "reply_to": "support@example.com",
+    "signature": "团队"
+  },
+  "templates": {
+    "welcome": "resources/templates/welcome_email.md",
+    "notification": "resources/templates/notification_email.md",
+    "reminder": "resources/templates/reminder_email.md"
+  }
+}
+
+
