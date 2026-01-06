@@ -4,15 +4,14 @@
 
 ## 入门视频
 
-- **免费版 Claude Code！每天免费2000万 tokens | 超强 Claude 4 模型！Rovo Dev CLI 安装+实战教程！**
-  - 链接：https://www.youtube.com/watch?v=MD3Hn5t7A8A
-  - 平台：YouTube
-  - 时长：待确认
-  - 描述：介绍如何安装和使用 Rovo Dev CLI，每天提供高达 2000 万 Token 的免费额度，搭载 Claude Sonnet 4 模型
-  - 作者：待确认
-  - 发布日期：待确认
-  - 标签：入门、视频、免费版、安装教程
-  - 添加日期：2026-01-06
+- **待补充**
+  - 链接：
+  - 平台：YouTube / Bilibili / 其他
+  - 时长：
+  - 描述：
+  - 作者：
+  - 发布日期：
+  - 标签：入门、视频
 
 ## 进阶视频
 

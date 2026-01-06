@@ -25,30 +25,6 @@
   - 发布日期：待确认
   - 标签：入门、教程、中文资源
 
-- **Claude Code 更新日志**
-  - 链接：https://www.claudecode101.com/zh/upgrade
-  - 描述：详细记录 Claude Code 的版本更新、新功能和改进，最新版本 1.0.62（2025-07-29）
-  - 作者：Claude Code 教程中心
-  - 发布日期：2025-07-29
-  - 标签：更新日志、版本信息
-  - 添加日期：2026-01-06
-
-- **Claude Code 国内使用详细教程**
-  - 链接：https://claudehelp.com/posts/2025-latest-claude-code-domestic-use-detailed-tutorial
-  - 描述：针对国内用户的详细使用指南，涵盖安装、配置和常见问题解答
-  - 作者：Claude Help
-  - 发布日期：2025
-  - 标签：入门、教程、国内用户
-  - 添加日期：2026-01-06
-
-- **Claude Code 基础配置**
-  - 链接：https://www.claude-code-hub.org/docs/config/claude-configuration
-  - 描述：完整的安装配置指南，涵盖初始化设置、环境配置、工作空间管理和个性化定制
-  - 作者：Claude Code Hub
-  - 发布日期：待确认
-  - 标签：配置、入门
-  - 添加日期：2026-01-06
-
 ## 进阶教程
 
 - **Agent Skills – Claude 中文 - Claude AI 开发技术社区**
@@ -65,14 +41,6 @@
   - 发布日期：待确认
   - 标签：进阶、教程、开发指南
 
-- **Claude Code API 使用指南与最佳实践**
-  - 链接：https://gaccode.store/posts
-  - 描述：Claude Code API 的技术文章和最佳实践，帮助开发者深入理解和应用 Claude Code
-  - 作者：GACCode
-  - 发布日期：待确认
-  - 标签：API、最佳实践、技术
-  - 添加日期：2026-01-06
-
 ## 实战案例
 
 - **Claude Code 高效开发实战：从新手到专家的进阶指南**
@@ -88,14 +56,6 @@
   - 作者：Apifox
   - 发布日期：待确认
   - 标签：实战、案例、Skills 创建
-
-- **Claude Code 完全实战指南**
-  - 链接：https://gaccode.store/posts
-  - 描述：从零基础到提升生产力的深度解析，涵盖安装配置、核心功能、实战案例与效率优化
-  - 作者：GACCode
-  - 发布日期：待确认
-  - 标签：实战、完整指南
-  - 添加日期：2026-01-06
 
 ## 最佳实践
 
