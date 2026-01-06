@@ -20,6 +20,27 @@
   - 发布日期：待确认
   - 标签：官方文档、入门、创建指南
 
+- **What are Skills?（English）**
+  - 链接：https://support.claude.com/en/articles/12512176-what-are-skills
+  - 描述：Claude 官方帮助中心英文版，介绍 Skills 的定义、核心概念与类型
+  - 作者：Anthropic
+  - 发布日期：待确认
+  - 标签：官方文档、入门、基础概念、英文资源
+
+- **Using Skills in Claude（English）**
+  - 链接：https://support.claude.com/en/articles/12512180-using-skills-in-claude
+  - 描述：Claude 官方帮助中心英文版，介绍 Skills 的使用与管理方式
+  - 作者：Anthropic
+  - 发布日期：待确认
+  - 标签：官方文档、入门、使用指南、英文资源
+
+- **Building Skills for Claude Code（Claude 官方博客）**
+  - 链接：https://www.claude.com/fr-fr/blog/building-skills-for-claude-code
+  - 描述：Claude 官方博客文章，介绍为 Claude Code 构建 Skills 的思路与实践建议
+  - 作者：Anthropic
+  - 发布日期：待确认
+  - 标签：官方博客、最佳实践、开发指南、英文资源
+
 - **Agent Skills 概述**
   - 链接：https://claudecn.com/docs/agent-skills/
   - 描述：Claude 中文社区提供的 Agent Skills 详细文档，介绍概念、优势和架构
@@ -54,6 +75,20 @@
   - 作者：Anthropic
   - 发布日期：待确认
   - 标签：官方文档、进阶、SDK
+
+- **Claude Code Skills 官方文档**
+  - 链接：https://code.claude.com/docs/en/skills
+  - 描述：Claude Code Skills 官方文档入口，包含 Skills 结构与使用说明
+  - 作者：Anthropic
+  - 发布日期：待确认
+  - 标签：官方文档、参考、英文资源
+
+- **Cursor Skills 文档**
+  - 链接：https://cursor.com/cn/docs/context/skills
+  - 描述：Cursor 关于 Skills 的文档说明，便于在 Cursor 工作流中理解与使用 Skills
+  - 作者：Cursor
+  - 发布日期：待确认
+  - 标签：官方文档、工具、Cursor
 
 ## 入门教程
 

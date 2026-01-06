@@ -1,17 +1,63 @@
 {
-  "last_updated": "2024-01-01",
+  "last_updated": "2026-01-06",
   "version": "1.0.0",
   "resources": {
-    "blog_posts": [],
+    "blog_posts": [
+      {
+        "title": "What are Skills? (English)",
+        "url": "https://support.claude.com/en/articles/12512176-what-are-skills",
+        "description": "Claude 官方帮助中心英文版，介绍 Skills 的定义、核心概念与类型",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "docs", "beginner", "english"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "Using Skills in Claude (English)",
+        "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
+        "description": "Claude 官方帮助中心英文版，介绍 Skills 的使用与管理方式",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "docs", "usage", "english"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "Building Skills for Claude Code (Claude Blog)",
+        "url": "https://www.claude.com/fr-fr/blog/building-skills-for-claude-code",
+        "description": "Claude 官方博客文章，介绍为 Claude Code 构建 Skills 的思路与实践建议",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "blog", "best-practices", "english"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "Claude Code Skills Documentation",
+        "url": "https://code.claude.com/docs/en/skills",
+        "description": "Claude Code Skills 官方文档入口，包含 Skills 结构与使用说明",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "docs", "reference", "english"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "Cursor Skills Documentation",
+        "url": "https://cursor.com/cn/docs/context/skills",
+        "description": "Cursor 关于 Skills 的文档说明，便于在 Cursor 工作流中理解与使用 Skills",
+        "author": "Cursor",
+        "publish_date": null,
+        "tags": ["official", "docs", "tooling", "cursor"],
+        "added_date": "2026-01-06"
+      }
+    ],
     "github_repositories": [],
     "video_tutorials": [],
     "case_studies": [],
     "tools_and_plugins": []
   },
   "statistics": {
-    "total_resources": 0,
+    "total_resources": 5,
     "by_category": {
-      "blog_posts": 0,
+      "blog_posts": 5,
       "github_repositories": 0,
       "video_tutorials": 0,
       "case_studies": 0,

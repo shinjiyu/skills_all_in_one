@@ -17,6 +17,12 @@
   - Skills 架构设计（Claude 中文社区）
   - Agent Skills 学习及案例
   - SDK 中的代理技能
+- **官方/权威文档补充**：补充 5 个更权威/更完整的参考入口
+  - Claude 帮助中心（EN）：What are Skills?
+  - Claude 帮助中心（EN）：Using Skills in Claude
+  - Claude 官方博客：Building Skills for Claude Code
+  - Claude Code Skills 官方文档（code.claude.com）
+  - Cursor Skills 文档
 - **GitHub 仓库**：添加 6 个包含 SKILL.md 的 GitHub 仓库
   - anthropics/skills（官方示例仓库）
   - letta-ai/skills（社区示例仓库）
