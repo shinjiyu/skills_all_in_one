@@ -7,8 +7,11 @@
 ```
 claude-code-skills-tutorial/
 ├── examples/              # 示例项目
+├── skills/                 # Skills 集合
+│   └── resource-management/  # 资源管理 Skills
 ├── templates/             # 项目模板
 ├── docs/                  # 文档和参考资料
+├── community-resources/   # 社区资源（与 docs 并列）
 └── README.md             # 本文件
 ```
 
@@ -27,6 +30,7 @@ claude-code-skills-tutorial/
 - `08-production-ready/` - 生产级 Skills
 
 ### 资源管理 Skills
+位于 `skills/resource-management/` 目录：
 - `09-resource-search/` - 资源搜索 Skill（搜索最新资料）
 - `10-resource-briefing/` - 资源简报生成 Skill（生成定期简报）
 - `11-update-daily-report/` - 更新日报生成 Skill（生成每日更新报告）
@@ -66,12 +70,12 @@ claude-code-skills-tutorial/
 
 ## 社区资源
 
-- [社区资源目录](docs/community-resources/README.md) - 收集的社区资源
-- [GitHub 仓库](docs/community-resources/github-repositories.md) - Skills 相关的 GitHub 项目
-- [博客文章](docs/community-resources/blog-posts.md) - 技术博客和教程
-- [视频教程](docs/community-resources/video-tutorials.md) - 视频教学资源
-- [案例研究](docs/community-resources/case-studies.md) - 实际应用案例
-- [工具和插件](docs/community-resources/tools-and-plugins.md) - 开发工具和插件
+- [社区资源目录](community-resources/README.md) - 收集的社区资源
+- [GitHub 仓库](community-resources/github-repositories.md) - Skills 相关的 GitHub 项目
+- [博客文章](community-resources/blog-posts.md) - 技术博客和教程
+- [视频教程](community-resources/video-tutorials.md) - 视频教学资源
+- [案例研究](community-resources/case-studies.md) - 实际应用案例
+- [工具和插件](community-resources/tools-and-plugins.md) - 开发工具和插件
 
 ## 参考资料
 

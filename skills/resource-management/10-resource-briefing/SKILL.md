@@ -46,8 +46,8 @@
 
 ### 数据来源
 
-- 读取 `docs/community-resources/` 目录下的资源文件
-- 参考 `CHANGELOG.md` 获取更新记录
+- 读取 `community-resources/` 目录下的资源文件
+- 参考 `community-resources/CHANGELOG.md` 获取更新记录
 - 分析资源添加日期和标签
 
 ### 输出格式

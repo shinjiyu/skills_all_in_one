@@ -98,7 +98,7 @@
 ## 自动化建议
 
 - 可以设置定时任务自动生成日报
-- 日报可以保存到 `docs/community-resources/reports/` 目录
+- 日报可以保存到 `community-resources/reports/` 目录
 - 文件名格式：`daily-report-YYYY-MM-DD.md`
 
 ## 注意事项
