@@ -6,6 +6,27 @@
 
 ---
 
+## 2026-01-06
+
+### 新增
+- 博客文章：5 篇
+  - Claude Code 更新日志
+  - Claude Code 国内使用详细教程
+  - Claude Code 基础配置
+  - Claude Code API 使用指南与最佳实践
+  - Claude Code 完全实战指南
+- 视频教程：1 个
+  - 免费版 Claude Code 安装教程（YouTube）
+- 工具和资源：2 个
+  - Claude Code 官方网站
+  - Claude Code 安装指南与设置
+
+### 改进
+- 使用 resource-search Skill 搜索最新资源
+- 更新资源库，添加 8 个新资源
+
+---
+
 ## 2024-01-01
 
 ### 新增
