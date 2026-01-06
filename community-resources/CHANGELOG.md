@@ -8,6 +8,23 @@
 
 ## 2026-01-06
 
+### 新增
+- **官方文档链接**：添加 7 个官方文档链接到博客文章资源库
+  - Claude 帮助中心：什么是技能？
+  - Claude 帮助中心：如何创建自定义 Skills
+  - Agent Skills 概述（Claude 中文社区）
+  - Agent Skills 快速开始（Claude 中文社区）
+  - Skills 架构设计（Claude 中文社区）
+  - Agent Skills 学习及案例
+  - SDK 中的代理技能
+- **GitHub 仓库**：添加 6 个包含 SKILL.md 的 GitHub 仓库
+  - anthropics/skills（官方示例仓库）
+  - letta-ai/skills（社区示例仓库）
+  - letta-ai/letta-code（编码代理工具）
+  - intellectronica/skillz（MCP 服务器）
+  - gotalab/skillport（Skills 集成工具）
+  - Skill Seeker（转换工具）
+
 ### 修正
 - **项目定位明确**：修正项目定位，专注于 Skills 开发和使用，不是 Claude Code 使用教程
 - **搜索关键词优化**：更新 resource-search Skill 的搜索关键词，专注于 Skills 相关内容
@@ -18,6 +35,7 @@
 - 更新 resource-search Skill，添加筛选规则，排除 Claude Code 使用教程
 - 更新所有资源文件的说明，明确只收录 Skills 相关内容
 - 修正 Skills 描述，去掉 "Claude Code" 前缀
+- 添加工具和插件资源：Skill Seeker
 
 ---
 
