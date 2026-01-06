@@ -4,21 +4,21 @@
 
 ## Skills 列表
 
-### 09-resource-search
+### resource-search
 **资源搜索 Skill** - 搜索最新的 Claude Code Skills 相关资料
 
 - 功能：全网搜索相关资源
 - 支持：博客文章、GitHub 仓库、视频教程、案例研究、工具插件
 - 输出：格式化的资源列表
 
-### 10-resource-briefing
+### resource-briefing
 **资源简报生成 Skill** - 生成资源库的定期简报
 
 - 功能：生成周报、月报或自定义时间段的简报
 - 内容：新增资源统计、重点资源推荐、趋势分析
 - 输出：格式化的简报文档
 
-### 11-update-daily-report
+### daily-report
 **更新日报生成 Skill** - 生成每日更新报告
 
 - 功能：记录当天的资源添加、修改和删除操作

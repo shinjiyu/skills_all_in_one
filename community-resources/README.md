@@ -60,7 +60,7 @@
 
 以下 Skills 可以帮助维护资源库：
 
-1. **资源搜索 Skill** (`skills/resource-management/09-resource-search/`) - 搜索最新资料
-2. **资源简报生成 Skill** (`skills/resource-management/10-resource-briefing/`) - 生成定期简报
-3. **更新日报生成 Skill** (`skills/resource-management/11-update-daily-report/`) - 生成每日更新报告
+1. **资源搜索 Skill** (`skills/resource-management/resource-search/`) - 搜索最新资料
+2. **资源简报生成 Skill** (`skills/resource-management/resource-briefing/`) - 生成定期简报
+3. **更新日报生成 Skill** (`skills/resource-management/daily-report/`) - 生成每日更新报告
 

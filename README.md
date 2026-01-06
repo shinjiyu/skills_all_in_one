@@ -31,9 +31,9 @@ claude-code-skills-tutorial/
 
 ### 资源管理 Skills
 位于 `skills/resource-management/` 目录：
-- `09-resource-search/` - 资源搜索 Skill（搜索最新资料）
-- `10-resource-briefing/` - 资源简报生成 Skill（生成定期简报）
-- `11-update-daily-report/` - 更新日报生成 Skill（生成每日更新报告）
+- `resource-search/` - 资源搜索 Skill（搜索最新资料）
+- `resource-briefing/` - 资源简报生成 Skill（生成定期简报）
+- `daily-report/` - 更新日报生成 Skill（生成每日更新报告）
 
 ## 使用方法
 
