@@ -7,8 +7,8 @@
 ```
 claude-code-skills-tutorial/
 ├── examples/              # 示例项目
-├── skills/                 # Skills 集合
-│   └── resource-management/  # 资源管理 Skills
+├── .claude/               # Claude Code 配置
+│   └── skills/            # 项目级 Skills
 ├── templates/             # 项目模板
 ├── docs/                  # 文档和参考资料
 ├── community-resources/   # 社区资源（与 docs 并列）
@@ -30,10 +30,12 @@ claude-code-skills-tutorial/
 - `08-production-ready/` - 生产级 Skills
 
 ### 资源管理 Skills
-位于 `skills/resource-management/` 目录：
+位于 `.claude/skills/` 目录（项目级 Skills）：
 - `resource-search/` - 资源搜索 Skill（搜索最新资料）
 - `resource-briefing/` - 资源简报生成 Skill（生成定期简报）
 - `daily-report/` - 更新日报生成 Skill（生成每日更新报告）
+
+**注意：** Skills 必须放在 `.claude/skills/` 目录下才能被 Claude Code 识别和使用。
 
 ## 使用方法
 
@@ -49,6 +51,7 @@ claude-code-skills-tutorial/
 - [文章大纲](docs/article-outlines.md) - 10篇文章的详细大纲
 - [质量检查清单](docs/quality-checklist.md) - 项目质量检查标准
 - [阅读时间指南](docs/reading-time-guide.md) - 文章长度控制指南
+- [Skills 完整指南](docs/skills-guide.md) - Skills 设置、规范和使用指南
 
 ## 模板
 

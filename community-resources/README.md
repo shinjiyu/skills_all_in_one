@@ -58,9 +58,11 @@
 
 ## 相关 Skills
 
-以下 Skills 可以帮助维护资源库：
+以下 Skills 可以帮助维护资源库（位于 `.claude/skills/` 目录）：
 
-1. **资源搜索 Skill** (`skills/resource-management/resource-search/`) - 搜索最新资料
-2. **资源简报生成 Skill** (`skills/resource-management/resource-briefing/`) - 生成定期简报
-3. **更新日报生成 Skill** (`skills/resource-management/daily-report/`) - 生成每日更新报告
+1. **资源搜索 Skill** (`.claude/skills/resource-search/`) - 搜索最新资料
+2. **资源简报生成 Skill** (`.claude/skills/resource-briefing/`) - 生成定期简报
+3. **更新日报生成 Skill** (`.claude/skills/daily-report/`) - 生成每日更新报告
+
+**使用说明：** 重启 Claude Code 后，这些 Skills 会自动加载。询问 "What Skills are available?" 可以查看可用 Skills。
 
