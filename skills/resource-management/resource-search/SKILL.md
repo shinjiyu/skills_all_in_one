@@ -1,3 +1,8 @@
+---
+name: resource-search
+description: Search and collect the latest Claude Code Skills resources including blog posts, GitHub repositories, video tutorials, case studies, and tools. Use when searching for new Skills resources, updating the resource library, or when the user asks to find Skills-related content.
+---
+
 # 资源搜索 Skill
 
 ## 描述
