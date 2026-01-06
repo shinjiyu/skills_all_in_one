@@ -1,15 +1,17 @@
 # GitHub 仓库
 
-收集 Claude Code Skills 相关的 GitHub 项目和示例仓库。
+收集 Skills 相关的 GitHub 项目和示例仓库。
+
+**注意：** 本项目专注于 Skills 开发，只收录包含 Skills 示例、SKILL.md 文件、Skills 开发工具的仓库。
 
 ## 官方仓库
 
 - **skills_all_in_one**
   - 链接：https://github.com/shinjiyu/skills_all_in_one
-  - 描述：Claude Code Skills 资源集合仓库
+  - 描述：Skills 资源集合仓库，包含 Skills 示例和教学材料
   - 作者：shinjiyu
   - Stars：待确认
-  - 标签：官方、资源集合
+  - 标签：官方、资源集合、Skills 示例
   - 添加日期：2024-01-01
 
 ## 社区项目

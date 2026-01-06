@@ -6,6 +6,21 @@
 
 ---
 
+## 2026-01-06
+
+### 修正
+- **项目定位明确**：修正项目定位，专注于 Skills 开发和使用，不是 Claude Code 使用教程
+- **搜索关键词优化**：更新 resource-search Skill 的搜索关键词，专注于 Skills 相关内容
+- **清理不相关资源**：删除 Claude Code 使用教程类资源，只保留 Skills 相关内容
+- **文档更新**：更新所有文档，明确项目专注于 Skills
+
+### 改进
+- 更新 resource-search Skill，添加筛选规则，排除 Claude Code 使用教程
+- 更新所有资源文件的说明，明确只收录 Skills 相关内容
+- 修正 Skills 描述，去掉 "Claude Code" 前缀
+
+---
+
 ## 2024-01-01
 
 ### 新增

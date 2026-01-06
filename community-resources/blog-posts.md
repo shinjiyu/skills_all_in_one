@@ -22,9 +22,9 @@
   - 发布日期：待确认
   - 标签：进阶、教程、官方文档
 
-- **Claude Code Skills 开发指南 | ruoyi-plus-uniapp 开发文档**
+- **Skills 开发指南 | ruoyi-plus-uniapp 开发文档**
   - 链接：https://ruoyi.plus/practices/engineering/claude-code-skills
-  - 描述：详细的 Claude Code Skills 开发指南，包含工程实践和最佳实践
+  - 描述：详细的 Skills 开发指南，包含工程实践和最佳实践
   - 作者：ruoyi-plus-uniapp
   - 发布日期：待确认
   - 标签：进阶、教程、开发指南
@@ -38,9 +38,9 @@
   - 发布日期：
   - 标签：实战、案例
 
-- **如何在 Claude 与 Claude Code 中创建并使用「Skills」**
+- **如何在 Claude 中创建并使用「Skills」**
   - 链接：https://apifox.com/apiskills/claude-skills/
-  - 描述：详细讲解如何在 Claude 和 Claude Code 中创建和使用 Skills 的实战教程
+  - 描述：详细讲解如何在 Claude 中创建和使用 Skills 的实战教程
   - 作者：Apifox
   - 发布日期：待确认
   - 标签：实战、案例、Skills 创建
