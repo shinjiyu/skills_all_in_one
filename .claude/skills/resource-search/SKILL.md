@@ -101,7 +101,10 @@ description: Search and collect the latest Skills resources including blog posts
 
 ## 注意事项
 
+- **核心原则：** 本项目专注于 Skills，不是 Claude Code 使用教程
 - 确保搜索结果的时效性（优先最新内容）
 - 验证链接的有效性
 - 避免重复添加已有资源
 - 保持资源描述的准确性
+- **严格筛选：** 只添加与 Skills 开发、SKILL.md 编写、Skills 示例相关的内容
+- **排除标准：** 如果资源主要是 Claude Code 使用教程，而不是 Skills 相关内容，应该排除
