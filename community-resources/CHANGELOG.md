@@ -41,6 +41,12 @@
 - **文档更新**：更新所有文档，明确项目专注于 Skills
 
 ### 改进
+- **动态搜索源机制**：建立可动态扩展的搜索源管理系统
+  - 创建 `community-resources/data/search-sources.json` 配置文件
+  - 创建 `community-resources/SEARCH-SOURCES.md` 管理文档
+  - 更新 resource-search Skill，支持使用配置的搜索源进行定向搜索
+  - 支持根据用户提供的资源自动提取来源并添加到搜索源
+  - 初始添加 8 个搜索源（Cursor 官方博客、Claude 官方博客、Claude 中文社区等）
 - 更新 resource-search Skill，添加筛选规则，排除 Claude Code 使用教程
 - 更新所有资源文件的说明，明确只收录 Skills 相关内容
 - 修正 Skills 描述，去掉 "Claude Code" 前缀

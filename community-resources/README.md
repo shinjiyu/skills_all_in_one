@@ -23,7 +23,9 @@
 ### 管理文件
 - [更新日志](CHANGELOG.md) - 记录所有资源更新历史
 - [资源模板](TEMPLATE.md) - 添加资源时使用的模板格式
+- [搜索源管理](SEARCH-SOURCES.md) - 动态搜索源配置和管理文档
 - [数据文件](data/resources.json) - JSON 格式的资源数据（便于程序处理）
+- [搜索源配置](data/search-sources.json) - 动态搜索源的 JSON 配置文件
 
 ### 报告目录
 - [reports/](reports/) - 存储生成的简报和日报文件
@@ -70,6 +72,9 @@
 以下 Skills 可以帮助维护资源库（位于 `.claude/skills/` 目录）：
 
 1. **资源搜索 Skill** (`.claude/skills/resource-search/`) - 搜索最新资料
+   - 支持动态搜索源扩展
+   - 根据用户提供的资源自动添加新搜索源
+   - 优先使用配置的搜索源进行定向搜索
 2. **资源简报生成 Skill** (`.claude/skills/resource-briefing/`) - 生成定期简报
 3. **更新日报生成 Skill** (`.claude/skills/daily-report/`) - 生成每日更新报告
 
