@@ -142,6 +142,13 @@
 
 ## 技术深度分析
 
+- **Cursor 动态上下文发现：节省近半数 Token 的突破性技术**
+  - 链接：https://cursor.com/cn/blog/dynamic-context-discovery
+  - 描述：Cursor 推出的动态上下文发现技术，通过优化上下文工程，在调用 MCP 工具时节省了 46.9% 的 token 消耗。文章详细介绍了如何通过文件化工具响应、对话历史摘要、Agent Skills 支持等方式实现高效的上下文管理
+  - 作者：Cursor
+  - 发布日期：待确认
+  - 标签：技术、深度、Token 优化、上下文管理、Agent Skills
+
 - **Claude just got customizable 'Skills' - here's how they could supercharge your workflow**
   - 链接：https://www.tomsguide.com/ai/claude-just-got-customizable-skills-heres-how-they-could-supercharge-your-workflow
   - 描述：深度分析 Claude Skills 功能及其如何提升工作流程的技术文章

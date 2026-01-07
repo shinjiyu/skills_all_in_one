@@ -9,6 +9,9 @@
 ## 2026-01-06
 
 ### 新增
+- **Cursor 动态上下文发现技术文章**：归档 Cursor 官方博客文章，并生成公众号文章
+  - 博客文章：Cursor 动态上下文发现技术（Token 节省 46.9%）
+  - 公众号文章：`community-resources/articles/cursor-dynamic-context-discovery.md`
 - **官方文档链接**：添加 7 个官方文档链接到博客文章资源库
   - Claude 帮助中心：什么是技能？
   - Claude 帮助中心：如何创建自定义 Skills
