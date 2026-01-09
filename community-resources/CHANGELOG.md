@@ -6,6 +6,24 @@
 
 ---
 
+## 2026-01-09
+
+### 新增
+- **AgentSkills.best 平台**：发现并添加专门的 Claude Agent Skills 市场平台
+  - 链接：https://agentskills.best/zh
+  - 类型：在线平台，提供技能库、教程、最佳实践
+  - 支持中英文
+- **技术博客文章**：添加 3 篇高质量技术分析文章
+  - Skill Creator 指南（x-cmd）
+  - Anthropic Claude Skills 案例解析（ApFramework，2025-12-20）
+  - Claude Skills：简单却革命性的扩展机制（Build School Learn）
+
+### 改进
+- 持续监控和更新社区资源
+- 完善博客文章分类结构
+
+---
+
 ## 2026-01-06
 
 ### 新增

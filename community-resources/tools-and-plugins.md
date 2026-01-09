@@ -14,6 +14,14 @@
   - 作者：jimmysong
   - 标签：工具、转换工具、自动化
 
+- **AgentSkills.best**
+  - 工具名称：AgentSkills.best
+  - 链接：https://agentskills.best/zh
+  - 类型：在线平台 / Skills 市场
+  - 描述：专注于 Claude Agent Skills 的综合性平台，提供经过筛选的技能库、互动教程、最佳实践指南和社区分享，支持多语言（中英文），是查找和学习 Skills 的重要资源
+  - 作者：AgentSkills.best 团队
+  - 标签：平台、市场、学习资源、社区
+
 ## 编辑器插件
 
 ### VS Code 插件

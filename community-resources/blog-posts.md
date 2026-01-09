@@ -92,12 +92,12 @@
 
 ## 入门教程
 
-- **待补充**
-  - 链接：
-  - 描述：
-  - 作者：
-  - 发布日期：
-  - 标签：入门、教程
+- **Skill Creator 指南**
+  - 链接：https://cn.x-cmd.com/skill/anthropics/skill-creator/
+  - 描述：提供创建有效技能的详细指导，包括技能的核心原则、SKILL.md 格式规范和功能设计建议
+  - 作者：x-cmd
+  - 发布日期：待确认
+  - 标签：入门、教程、Skill Creator
 
 ## 进阶教程
 
@@ -155,6 +155,20 @@
   - 作者：Tom's Guide
   - 发布日期：待确认
   - 标签：技术、深度、英文资源
+
+- **Anthropic Claude Skills 案例解析**
+  - 链接：https://apframework.com/blog/essay/2025-12-20-Anthropic-Claude-Skills
+  - 描述：深入探讨 Anthropic Claude Skills 的仓库架构、生态系统以及实际应用案例，分析 Skills 在实际项目中的落地经验
+  - 作者：ApFramework
+  - 发布日期：2025-12-20
+  - 标签：技术、深度、案例分析、架构设计
+
+- **Claude Skills：简单却革命性的扩展机制**
+  - 链接：https://learn.build-school.com/zh-hant/claude-skills-simple-yet-revolutionary/
+  - 描述：讨论 Claude Skills 的革命性扩展机制，以及其与程序环境的关系，深入分析 Skills 的设计理念和技术创新
+  - 作者：Build School Learn
+  - 发布日期：待确认
+  - 标签：技术、深度、设计理念、创新分析
 
 ## 贡献
 
