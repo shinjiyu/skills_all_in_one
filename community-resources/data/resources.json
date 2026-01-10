@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-06",
-  "version": "1.0.0",
+  "last_updated": "2026-01-10",
+  "version": "1.1.0",
   "resources": {
     "blog_posts": [
       {
@@ -47,21 +47,177 @@
         "publish_date": null,
         "tags": ["official", "docs", "tooling", "cursor"],
         "added_date": "2026-01-06"
+      },
+      {
+        "title": "Introducing Agent Skills (Claude Blog)",
+        "url": "https://claude.com/blog/skills",
+        "description": "Claude 官方发布的 Agent Skills 介绍文章，系统解释 Skills 的结构、触发方式与学习入口",
+        "author": "Anthropic",
+        "publish_date": "2025-10-16",
+        "tags": ["official", "blog", "announcement", "agent-skills"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "Skills for organizations, partners, the ecosystem (Claude Blog)",
+        "url": "https://claude.com/blog/organization-skills-and-directory",
+        "description": "介绍组织级 Skills 管理、技能目录与开放标准（跨平台可移植）的官方公告",
+        "author": "Anthropic",
+        "publish_date": "2025-12-18",
+        "tags": ["official", "blog", "enterprise", "directory", "standard"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "Equipping agents for the real world with Agent Skills (Anthropic Engineering)",
+        "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+        "description": "官方工程深度文章，讲解 Skills 的渐进式加载、SKILL.md metadata 机制、文件组织与安全注意事项",
+        "author": "Anthropic Engineering",
+        "publish_date": "2025-10-16",
+        "tags": ["official", "engineering", "best-practices", "architecture"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "Introduction to Claude Skills (Claude Cookbook)",
+        "url": "https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction",
+        "description": "官方 Cookbook notebook，讲解如何在 API 中使用 Skills（含 code execution + files API）并覆盖 xlsx/pptx/pdf 等技能上手",
+        "author": "Alex Notov",
+        "publish_date": "2025-10-14",
+        "tags": ["official", "tutorial", "cookbook", "api"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "Claude Skills: A Beginner-Friendly Guide (with a Real Example)",
+        "url": "https://jewelhuq.medium.com/claude-skills-a-beginner-friendly-guide-with-a-real-example-ab8a17081206",
+        "description": "通过真实示例讲解 Skills 的目录结构与 SKILL.md 写法，适合新手快速理解",
+        "author": "Md Mazaharul Huq",
+        "publish_date": "2025-10-23",
+        "tags": ["community", "tutorial", "beginner", "english"],
+        "added_date": "2026-01-10"
       }
     ],
-    "github_repositories": [],
-    "video_tutorials": [],
+    "github_repositories": [
+      {
+        "title": "anthropics/skills",
+        "url": "https://github.com/anthropics/skills",
+        "description": "Anthropic 官方的 Skills 示例仓库，包含多个示例技能，可供参考和使用",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "examples", "github"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "letta-ai/skills",
+        "url": "https://github.com/letta-ai/skills",
+        "description": "Letta AI 的共享技能仓库，包含多个技能示例",
+        "author": "Letta AI",
+        "publish_date": null,
+        "tags": ["community", "examples", "github"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "letta-ai/letta-code",
+        "url": "https://github.com/letta-ai/letta-code",
+        "description": "一个自我改进的、有状态的编码代理，支持技能的使用和管理",
+        "author": "Letta AI",
+        "publish_date": null,
+        "tags": ["tool", "agent", "github"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "intellectronica/skillz",
+        "url": "https://github.com/intellectronica/skillz",
+        "description": "一个用于加载技能的 MCP 服务器，支持非 Claude 客户端",
+        "author": "intellectronica",
+        "publish_date": null,
+        "tags": ["tool", "mcp", "github"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "gotalab/skillport",
+        "url": "https://github.com/gotalab/skillport",
+        "description": "将 Agent Skills 引入任何 AI 代理和编码代理的工具",
+        "author": "gotalab",
+        "publish_date": null,
+        "tags": ["tool", "integration", "github"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "agentskills/agentskills",
+        "url": "https://github.com/agentskills/agentskills",
+        "description": "Agent Skills 开放标准规范仓库，包含规范文档与参考库（用于校验 skills、生成 prompt XML 等）",
+        "author": "agentskills",
+        "publish_date": null,
+        "tags": ["standard", "spec", "reference", "github"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "metaskills/skill-builder",
+        "url": "https://github.com/metaskills/skill-builder",
+        "description": "面向 Skills 创建/改造/维护的辅助 Skill（含 SKILL.md 模板与最佳实践），适合作为写作与结构参考",
+        "author": "metaskills",
+        "publish_date": null,
+        "tags": ["tool", "template", "best-practices", "github"],
+        "added_date": "2026-01-10"
+      }
+    ],
+    "video_tutorials": [
+      {
+        "title": "Claude Skills | Complete Guide + Build Your First Skill (Step-by-Step Tutorial)",
+        "url": "https://www.youtube.com/watch?v=ifsLyAC7wkM",
+        "description": "面向新手的 Claude Skills 全流程讲解，包含 SKILL.md 的写法与从零构建第一个 Skill 的步骤",
+        "author": "MLTut",
+        "publish_date": null,
+        "tags": ["video", "beginner", "skilmd", "youtube"],
+        "added_date": "2026-01-10"
+      }
+    ],
     "case_studies": [],
-    "tools_and_plugins": []
+    "tools_and_plugins": [
+      {
+        "title": "Skill Seeker",
+        "url": "https://jimmysong.io/zh/ai/skill-seeker/",
+        "description": "开源工具，能够将网站文档、GitHub 仓库和 PDF 自动转换为可上传的 Claude 技能包，支持冲突检测与本地增强",
+        "author": "jimmysong",
+        "publish_date": null,
+        "tags": ["tool", "converter", "automation"],
+        "added_date": "2026-01-06"
+      },
+      {
+        "title": "AgentSkills.best",
+        "url": "https://agentskills.best/zh",
+        "description": "专注于 Claude Agent Skills 的综合性平台，提供技能库、互动教程、最佳实践与社区分享，支持中英文",
+        "author": "AgentSkills.best 团队",
+        "publish_date": null,
+        "tags": ["platform", "marketplace", "learning", "community"],
+        "added_date": "2026-01-09"
+      },
+      {
+        "title": "Claude Code Plugins (claude-plugins.dev)",
+        "url": "https://claude-plugins.dev/",
+        "description": "社区维护的 Skills/Plugins 市场，提供技能展示、安装指引与 ZIP 下载入口，可用于发现与分发 Skills",
+        "author": "claude-plugins.dev",
+        "publish_date": null,
+        "tags": ["platform", "marketplace", "distribution", "community"],
+        "added_date": "2026-01-10"
+      },
+      {
+        "title": "Agent Skills Open Standard",
+        "url": "https://agentskills.io/",
+        "description": "Agent Skills 开放标准站点，提供规范、集成指引及参考库入口",
+        "author": "agentskills.io",
+        "publish_date": null,
+        "tags": ["standard", "spec", "ecosystem"],
+        "added_date": "2026-01-10"
+      }
+    ]
   },
   "statistics": {
-    "total_resources": 5,
+    "total_resources": 22,
     "by_category": {
-      "blog_posts": 5,
-      "github_repositories": 0,
-      "video_tutorials": 0,
+      "blog_posts": 10,
+      "github_repositories": 7,
+      "video_tutorials": 1,
       "case_studies": 0,
-      "tools_and_plugins": 0
+      "tools_and_plugins": 4
     }
   }
 }

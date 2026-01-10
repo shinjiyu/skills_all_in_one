@@ -24,6 +24,31 @@
 
 ---
 
+## 2026-01-10
+
+### 新增
+- **官方 Skills 公告与生态更新**：补充 2 篇 Claude 官方博客文章
+  - Introducing Agent Skills（2025-10-16）：https://claude.com/blog/skills
+  - Skills for organizations, partners, the ecosystem（2025-12-18）：https://claude.com/blog/organization-skills-and-directory
+- **官方工程深度文章**：新增 Anthropic Engineering 文章，解释 Skills 的渐进式加载与 SKILL.md 机制（2025-10-16）
+  - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- **官方 Cookbook 教程**：新增 Skills notebook 入门（2025-10-14）
+  - https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction
+- **开放标准/规范入口**：新增 Agent Skills open standard 站点与规范仓库
+  - https://agentskills.io/
+  - https://github.com/agentskills/agentskills
+- **社区工具/分发渠道**：新增社区维护的 Skills/Plugins 市场
+  - https://claude-plugins.dev/
+- **GitHub 仓库**：新增 Skills 写作/维护辅助 Skill 仓库
+  - https://github.com/metaskills/skill-builder
+- **社区教程文章**：新增一篇从零入门 Skills / SKILL.md 的示例文章（2025-10-23）
+  - https://jewelhuq.medium.com/claude-skills-a-beginner-friendly-guide-with-a-real-example-ab8a17081206
+- **视频教程**：新增一个面向新手的 Claude Skills 视频教程（YouTube）
+  - https://www.youtube.com/watch?v=ifsLyAC7wkM
+
+### 改进
+- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.0），补齐资源条目并更新统计与最后更新时间（2026-01-10）
+
 ## 2026-01-06
 
 ### 新增

@@ -6,14 +6,14 @@
 
 ## 入门视频
 
-- **待补充**
-  - 链接：
-  - 平台：YouTube / Bilibili / 其他
-  - 时长：
-  - 描述：
-  - 作者：
-  - 发布日期：
-  - 标签：入门、视频
+- **Claude Skills | Complete Guide + Build Your First Skill (Step-by-Step Tutorial)**
+  - 链接：https://www.youtube.com/watch?v=ifsLyAC7wkM
+  - 平台：YouTube
+  - 时长：待确认
+  - 描述：面向新手的 Claude Skills 全流程讲解，包含 SKILL.md 的写法与从零构建第一个 Skill 的步骤
+  - 作者：MLTut
+  - 发布日期：待确认（约 1 个月前）
+  - 标签：入门、视频、SKILL.md
 
 ## 进阶视频
 

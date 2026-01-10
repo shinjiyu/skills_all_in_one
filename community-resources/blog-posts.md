@@ -90,6 +90,34 @@
   - 发布日期：待确认
   - 标签：官方文档、工具、Cursor
 
+- **Introducing Agent Skills（Claude 官方博客）**
+  - 链接：https://claude.com/blog/skills
+  - 描述：Claude 官方发布的 Agent Skills 介绍文章，系统解释 Skills 的结构（文件夹 + SKILL.md + 脚本/资源）、触发方式与学习入口
+  - 作者：Anthropic
+  - 发布日期：2025-10-16
+  - 标签：官方博客、公告、Agent Skills、入门
+
+- **Skills for organizations, partners, the ecosystem（Claude 官方博客）**
+  - 链接：https://claude.com/blog/organization-skills-and-directory
+  - 描述：介绍组织级 Skills 管理、技能目录（partner-built skills directory）与开放标准（跨平台可移植）的官方公告
+  - 作者：Anthropic
+  - 发布日期：2025-12-18
+  - 标签：官方博客、生态、企业、目录、标准
+
+- **Equipping agents for the real world with Agent Skills（Anthropic Engineering）**
+  - 链接：https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+  - 描述：官方工程深度文章，详细讲解 Skills 的渐进式加载（progressive disclosure）、SKILL.md metadata 机制、技能分层文件组织与安全注意事项
+  - 作者：Anthropic Engineering
+  - 发布日期：2025-10-16
+  - 标签：官方、工程、深度、最佳实践、架构
+
+- **Introduction to Claude Skills（Claude Cookbook）**
+  - 链接：https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction
+  - 描述：官方 Cookbook notebook，讲解如何在 API 中使用 Skills（含 code execution + files API），并覆盖 xlsx/pptx/pdf 等技能的快速上手
+  - 作者：Alex Notov
+  - 发布日期：2025-10-14
+  - 标签：官方、教程、Cookbook、API、Notebook
+
 ## 入门教程
 
 - **Skill Creator 指南**
@@ -98,6 +126,13 @@
   - 作者：x-cmd
   - 发布日期：待确认
   - 标签：入门、教程、Skill Creator
+
+- **Claude Skills: A Beginner-Friendly Guide (with a Real Example)**
+  - 链接：https://jewelhuq.medium.com/claude-skills-a-beginner-friendly-guide-with-a-real-example-ab8a17081206
+  - 描述：通过真实示例讲解 Skills 的目录结构与 SKILL.md 写法，适合新手快速理解“一个 Skill = 一个可复用工作流”
+  - 作者：Md Mazaharul Huq
+  - 发布日期：2025-10-23
+  - 标签：入门、教程、英文资源、示例
 
 ## 进阶教程
 

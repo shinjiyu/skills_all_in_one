@@ -55,6 +55,20 @@
   - Stars：待确认
   - 标签：工具、框架、Skills 集成
 
+- **agentskills/agentskills**
+  - 链接：https://github.com/agentskills/agentskills
+  - 描述：Agent Skills 开放标准的规范仓库，包含规范文档与参考库（用于校验 skills、生成 prompt XML 等）
+  - 作者：agentskills
+  - Stars：待确认
+  - 标签：标准、规范、参考实现、生态
+
+- **metaskills/skill-builder**
+  - 链接：https://github.com/metaskills/skill-builder
+  - 描述：一个面向 Skills 创建/改造/维护的辅助 Skill（含 SKILL.md 模板与最佳实践），适合作为写作与结构参考
+  - 作者：metaskills
+  - Stars：待确认
+  - 标签：工具、模板、最佳实践、SKILL.md
+
 - **Skill Seeker**
   - 链接：https://jimmysong.io/zh/ai/skill-seeker/
   - GitHub：待补充

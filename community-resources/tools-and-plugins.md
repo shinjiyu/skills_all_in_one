@@ -22,6 +22,14 @@
   - 作者：AgentSkills.best 团队
   - 标签：平台、市场、学习资源、社区
 
+- **Claude Code Plugins（claude-plugins.dev）**
+  - 工具名称：Claude Code Plugins
+  - 链接：https://claude-plugins.dev/
+  - 类型：在线平台 / 社区市场
+  - 描述：社区维护的 Skills/Plugins 市场，提供技能展示、安装指引与 ZIP 下载入口，可用于发现与分发 Skills
+  - 作者：社区维护（claude-plugins.dev）
+  - 标签：平台、市场、分发、社区
+
 ## 编辑器插件
 
 ### VS Code 插件
