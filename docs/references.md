@@ -17,14 +17,14 @@
 
 ### 社区资源
 
-详细的社区资源收集请查看：[社区资源目录](../community-resources/README.md)
+详细的社区资源收集请查看：[社区资源目录](community-resources/index.md)
 
 快速链接：
-- [GitHub 仓库](../community-resources/github-repositories.md) - Skills 相关的 GitHub 项目和示例
-- [博客文章](../community-resources/blog-posts.md) - 技术博客和教程文章
-- [视频教程](../community-resources/video-tutorials.md) - 视频教学资源
-- [案例研究](../community-resources/case-studies.md) - 实际应用案例
-- [工具和插件](../community-resources/tools-and-plugins.md) - 相关开发工具和插件
+- [GitHub 仓库](community-resources/github-repositories.md) - Skills 相关的 GitHub 项目和示例
+- [博客文章](community-resources/blog-posts.md) - 技术博客和教程文章
+- [视频教程](community-resources/video-tutorials.md) - 视频教学资源
+- [案例研究](community-resources/case-studies.md) - 实际应用案例
+- [工具和插件](community-resources/tools-and-plugins.md) - 相关开发工具和插件
 
 ## 技术参考
 

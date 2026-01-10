@@ -26,6 +26,9 @@ def _sync_dir(src_dir: Path, dst_dir: Path, patterns: list[str]) -> None:
         for src in src_dir.glob(pattern):
             if src.is_dir():
                 continue
+            # Avoid README.md -> index.html collisions in MkDocs directories.
+            if src.name.lower() == "readme.md":
+                continue
             rel = src.relative_to(src_dir)
             _copy_file(src, dst_dir / rel)
 

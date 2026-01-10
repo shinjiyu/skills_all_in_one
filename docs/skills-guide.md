@@ -9,6 +9,7 @@
 3. [常见问题](#常见问题)
 4. [检查清单](#检查清单)
 
+<a id="skills-位置和设置"></a>
 ## Skills 位置和设置
 
 ### 正确的 Skills 位置
@@ -51,6 +52,7 @@
 2. 重启 Claude Code（Skills 在启动时加载）
 3. 验证：询问 "What Skills are available?"
 
+<a id="规范性要求"></a>
 ## 规范性要求
 
 ### 文件结构
@@ -100,6 +102,7 @@ description: Extract text and tables from PDF files, fill forms, merge documents
 description: Helps with documents  # 太模糊，没有触发词
 ```
 
+<a id="常见问题"></a>
 ## 常见问题
 
 ### Q: Skills 在 `skills/` 目录下为什么不工作？
@@ -125,6 +128,7 @@ description: Helps with documents  # 太模糊，没有触发词
 
 **A:** 如果 Claude 使用了错误的 Skill 或在相似 Skills 之间混淆，说明 descriptions 太相似。让每个 description 更具体，使用不同的触发词。
 
+<a id="检查清单"></a>
 ## 检查清单
 
 ### ✅ 文件位置
