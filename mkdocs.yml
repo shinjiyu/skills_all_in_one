@@ -1,0 +1,57 @@
+site_name: Skills All In One
+site_description: Skills 教学系列示例代码与社区资源库（GitHub Pages）
+repo_url: https://github.com/shinjiyu/skills_all_in_one
+repo_name: shinjiyu/skills_all_in_one
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 教程系列:
+      - 总览: wechat-series/README.md
+      - 01 - What is Skills: wechat-series/01-what-is-skills/README.md
+      - 02 - Where Skills come from: wechat-series/02-where-skills-come-from/README.md
+      - 03 - SKILL.md spec: wechat-series/03-skillmd-spec/README.md
+      - 04 - Instructions that don’t drift: wechat-series/04-instructions-that-dont-drift/README.md
+      - 05 - Resource files and templates: wechat-series/05-resource-files-and-templates/README.md
+      - 06 - Script integration as contract: wechat-series/06-script-integration-as-contract/README.md
+      - 07 - Doc processing case: wechat-series/07-doc-processing-case/README.md
+      - 08 - API integration case: wechat-series/08-api-integration-case/README.md
+      - 09 - Team asset: wechat-series/09-team-asset/README.md
+      - 10 - Production ready: wechat-series/10-production-ready/README.md
+      - 11 - Testing and debugging: wechat-series/11-testing-and-debugging/README.md
+      - 12 - Resource library ops: wechat-series/12-resource-library-ops/README.md
+  - 资料与规范:
+      - 项目定位: project-focus.md
+      - Skills 指南: skills-guide.md
+      - 参考资料: references.md
+      - 质量检查清单: quality-checklist.md
+      - 阅读时间指南: reading-time-guide.md
+      - 文章大纲: article-outlines.md
+  - 社区资源库:
+      - 总览: community-resources/index.md
+      - GitHub 仓库: community-resources/github-repositories.md
+      - 博客文章: community-resources/blog-posts.md
+      - 视频教程: community-resources/video-tutorials.md
+      - 案例研究: community-resources/case-studies.md
+      - 工具和插件: community-resources/tools-and-plugins.md
+      - 搜索源管理: community-resources/SEARCH-SOURCES.md
+      - 更新日志: community-resources/CHANGELOG.md
+      - 搜索日报:
+          - 汇总: community-resources/reports/index.md
+          - 2026-01-09: community-resources/reports/daily-search-2026-01-09.md
+          - 2026-01-10: community-resources/reports/daily-search-2026-01-10.md

@@ -49,6 +49,15 @@ logs/
 .DS_Store
 Thumbs.db
 
+# MkDocs / GitHub Pages build output
+site/
+
+# Generated docs for GitHub Pages (keep our hand-written index pages)
+docs/community-resources/*
+!docs/community-resources/index.md
+docs/community-resources/reports/*
+!docs/community-resources/reports/index.md
+
 # Temporary files
 *.tmp
 *.temp
