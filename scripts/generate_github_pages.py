@@ -84,6 +84,25 @@ def main() -> None:
     if (COMMUNITY_DIR / "reports").exists():
         _sync_dir(COMMUNITY_DIR / "reports", DEST_DIR / "reports", patterns=["*.md"])
 
+    # Ensure reports index exists for MkDocs nav/linking (do not rely on git-tracked file).
+    reports_dir = DEST_DIR / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    reports_index = reports_dir / "index.md"
+    if not reports_index.exists():
+        # Auto-list common daily search reports if present.
+        items: list[str] = []
+        for p in sorted(reports_dir.glob("daily-search-*.md")):
+            items.append(f"- [{p.stem.replace('daily-search-', '')}]({p.name})")
+        body = "\n".join(items) if items else "- （暂无）"
+        reports_index.write_text(
+            "# 搜索日报（Reports）\n\n"
+            "这里汇总展示 `community-resources/reports/` 中生成的日报/简报。\n\n"
+            "## Daily Search\n\n"
+            f"{body}\n\n"
+            "> 说明：本目录下的日报文件由脚本自动同步；新增新的日报后，commit + push 即会自动更新 GitHub Pages。\n",
+            encoding="utf-8",
+        )
+
     # Ensure an index exists (kept in repo; don't overwrite)
     if not (DEST_DIR / "index.md").exists():
         (DEST_DIR / "index.md").write_text(
