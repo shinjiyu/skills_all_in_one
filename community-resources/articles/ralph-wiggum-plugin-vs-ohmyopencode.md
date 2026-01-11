@@ -1,34 +1,36 @@
-# Ralph Wiggum：让 AI “一直干到做完”为止（以及它在 Oh My OpenCode 里的打开方式）
+# Oh My OpenCode：让 OpenCode 一键进化成“Agent 团队”（以及 Ralph Wiggum 循环开发怎么用）
 
 关键词：opencode, claude-code, ralph-wiggum, ralph-loop, agent loop, automation
 
-这篇文章聊一个最近在 Agent 圈子里很火的“暴力但有效”的工作法：**Ralph Wiggum**。
+这篇文章的主角其实只有一个：**Oh My OpenCode**。
 
-一句话解释：把 AI 代理从“一次性回答”升级为“**while true 迭代直到完成**”，并且给它一个**明确的完成信号**和**安全刹车**。
+它是一个最近才爆火的项目，但思路非常“工程化”：把 OpenCode 直接升级成“有主力 agent + 分工子 agent + 工具链 + 兼容层”的完整工作台，让你不用从 0 手搓一堆脚本/规则/配置也能立刻开干。
+
+而 **Ralph Wiggum / Ralph Loop**（“不做完别停”的循环开发）只是它开箱即用的王牌能力之一。
 
 参考来源（可引用）：
 
+- Oh My OpenCode（Sisyphus）项目（Ralph Loop、Claude Code compatibility layer、多 agent/工具链等）：[code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)
 - Anthropic 的 Claude Code 官方插件 Ralph Wiggum（说明了 “Ralph is a Bash loop”、Stop hook、`/ralph-loop` 等）：[anthropics/claude-code/plugins/ralph-wiggum](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum)
-- Oh My OpenCode（Sisyphus）在 README 里内置的 Ralph Loop（明确写了 Inspired by Anthropic’s Ralph Wiggum plugin、`<promise>DONE</promise>`、默认 100 次、`/cancel-ralph`、`oh-my-opencode.json` 配置）：[code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)
 - 一个更“工程模板化”的 OpenCode Ralph 插件（Phoenix/React/Expo + TanStack，带 `plan.md`、验证命令、commit 约定等）：[NicholasBarkolias/ralph-opencode-plugin](https://github.com/NicholasBarkolias/ralph-opencode-plugin)
 
-## 0）先补个背景：Oh My OpenCode 是什么？（以及为什么它是“最近一个月才爆火”的项目）
+## 1）先把 Oh My OpenCode 讲清楚：它是什么？为什么最近才火？
 
 你如果最近才看到 `oh-my-opencode`，很正常——它属于那种**短时间内在开发者圈子里突然出圈**的项目。
 
 它的定位可以简单粗暴地理解成：
 
-- **OpenCode 的“超级装配包 / agent harness”**：把一套“能打的默认工作流”直接装到 OpenCode 里（主 agent + 子 agent + 工具链 + 兼容层）
+- **OpenCode 的“超级装配包 / agent harness”**：把一套能跑起来、能扩展、能持续演进的默认工作流装进 OpenCode（主 agent + 子 agent + 工具链 + 兼容层）
 - **主打“多模型协作 + 并行/后台任务 + 工程化工具链”**：不是换皮聊天框，而是把“像一个小团队一样干活”做成默认体验
-- **兼容 Claude Code 生态**：它强调有 Claude Code compatibility layer（commands/skills/agents/hooks/plugins 等），让很多 Claude Code 的经验/资产能更容易迁移
+- **强调 Claude Code 兼容**：README 里明确强调 Claude Code compatibility（commands/skills/agents/hooks/plugins 等），让很多资产迁移成本更低
 
 为什么它最近火得快？我观察到的原因基本都很“工程现实”：
 
 - **默认配置就能跑**：很多人不想从 0 拼插件/脚本/规则；它把“可用的最佳实践”打包好了
-- **把痛点做成系统能力**：比如你这篇文章关心的 Ralph loop（“不做完别停”），在 `oh-my-opencode` 里就是开箱即用的一环
+- **把痛点做成系统能力**：比如 Ralph loop（“不做完别停”），在 `oh-my-opencode` 里就是开箱即用的一环
 - **赶上了“供应链焦虑”**：当上游模型/接入策略变化时，大家会更愿意把工作流迁移到更可控、更可替换的开源栈（这也是 OpenCode 生态最近整体升温的背景）
 
-## 1）Ralph Wiggum 到底解决什么问题？
+## 2）为什么要重点讲它的 Ralph Loop：解决“写一半就停”的硬伤
 
 如果你用过 AI 编程工具，你一定见过这种场景：
 
@@ -38,7 +40,20 @@
 
 Ralph 的核心思想是：**把“继续迭代”变成系统默认行为，而不是靠你盯着。**
 
-## 2）Claude Code 官方 Ralph Wiggum：Stop hook 驱动的“会话内循环”
+## 3）Oh My OpenCode 的 Ralph Loop：把“循环开发”做成开箱即用（跨语言）
+
+在 `oh-my-opencode` 的 README 里，Ralph Loop 被放在 “Not Just for the Agents” 部分，明确写了：
+
+- 受到 Anthropic Ralph Wiggum 插件启发（Inspired by Anthropic's Ralph Wiggum plugin）
+- 支持所有语言
+- 通过 `<promise>DONE</promise>` 判断完成
+- 默认最大迭代 100 次
+- 提供 `/cancel-ralph` 退出
+- 可在 `oh-my-opencode.json` 中配置
+
+一句话总结：**你宣传 Oh My OpenCode 的时候，Ralph Loop 是非常好打的“可感知卖点”**——读者不用理解一堆概念，先感受到“它不会半途而废、能自动反复修到做完”就够了。
+
+## 4）从 Claude Code 视角做对照：官方 Ralph Wiggum 插件在讲什么？
 
 在 Anthropic 的官方插件描述里，Ralph 被定义成一种持续循环的方法论（“Ralph is a Bash loop”），但插件把它“内置化”了：通过 **Stop hook** 拦截退出，把同一个 prompt 重新喂回去，让代理继续改文件、跑测试、再修。
 
@@ -53,20 +68,7 @@ Ralph 的核心思想是：**把“继续迭代”变成系统默认行为，而
 - **安全刹车**：`--max-iterations`（强烈建议总是设置）
 - **优势**：更像“把代理变成一个会反复自我纠错的工人”
 
-## 3）Oh My OpenCode 的 Ralph Loop：把“循环能力”做成通用底座（跨语言）
-
-Oh My OpenCode（Sisyphus）在 README 的 “Not Just for the Agents” 里，直接把 **Ralph Loop** 做成了内置能力，并且明确写了：
-
-- 受到 Anthropic Ralph Wiggum 插件启发
-- 支持所有语言
-- 通过 `<promise>DONE</promise>` 判断完成
-- 默认最大迭代 100 次
-- 也提供 `/cancel-ralph` 退出
-- 可以在 `oh-my-opencode.json` 里配置开关和默认次数
-
-你可以把它理解成：**官方插件的“循环思想”被移植到 OpenCode 生态里，并且做成更通用的默认能力。**
-
-## 4）ralph-opencode-plugin：把“循环”进一步固化成工程规约（适合特定技术栈）
+## 5）如果你想更“模板化”：ralph-opencode-plugin 把循环升级成工程规约
 
 另一个很有代表性的实现是 `ralph-opencode-plugin`：它不止是“循环”，更像是“把一个团队的工程规约塞进循环里”：
 
@@ -77,7 +79,7 @@ Oh My OpenCode（Sisyphus）在 README 的 “Not Just for the Agents” 里，�
 
 它的价值是：**把“循环”从方法论升级成“可复制的项目模板”。**
 
-## 5）对比：官方 Ralph vs Oh My OpenCode Ralph Loop vs ralph-opencode-plugin
+## 6）对比：官方 Ralph vs Oh My OpenCode Ralph Loop vs ralph-opencode-plugin
 
 | 维度 | Claude Code 官方 Ralph Wiggum | Oh My OpenCode：Ralph Loop | ralph-opencode-plugin |
 |---|---|---|---|
@@ -87,7 +89,7 @@ Oh My OpenCode（Sisyphus）在 README 的 “Not Just for the Agents” 里，�
 | 适用范围 | Claude Code 用户 | OpenCode 用户（偏通用） | Phoenix/React/Expo/TanStack 用户 |
 | 你要做的事 | 把“验收标准”写清楚 | 把“验收标准”写清楚 + 可配底座 | 直接套工程模板，按命令跑 |
 
-## 6）怎么写 Prompt 才能让 Ralph 真正跑起来？
+## 7）怎么写 Prompt 才能让 Oh My OpenCode 的 Ralph Loop 真正跑起来？
 
 不管你用哪一种 Ralph，本质都一样：**把“验收标准”写成可判定的 checklist**，并明确“卡住了怎么办”。
 
@@ -98,9 +100,14 @@ Oh My OpenCode（Sisyphus）在 README 的 “Not Just for the Agents” 里，�
 - 最大迭代次数
 - 卡住后要做的事：记录阻塞点、列出已尝试方案、给出替代路径
 
-## 7）一句结论：Ralph 不是“更聪明”，是“更不容易半途而废”
+## 8）一句结论：宣传 Oh My OpenCode，别只讲“更强”，要讲“更稳、更成体系”
 
 这类 loop 技术最实用的地方在于：它把 AI 代理从“偶尔灵光一现”，变成“可以交给它熬夜干活的流水线”。
 
-如果你已经在用 OpenCode，我建议优先从 Oh My OpenCode 的 Ralph Loop 体验“通用循环”，再决定要不要上更强约束的 `ralph-opencode-plugin`；如果你在 Claude Code 生态里，官方 Ralph Wiggum 插件是最直接的切入口。
+如果你的重点是宣传 **Oh My OpenCode**，我的建议是：
+
+- 先把它定义成“OpenCode 的超级装配包 / agent harness”（一条话术就够）
+- 再拿 Ralph Loop 做“可感知的卖点”演示（不做完不让停 + `<promise>DONE</promise>` + `/cancel-ralph` + 默认 100 次）
+- 最后补一句：它还强调 Claude Code 兼容，迁移资产成本更低
+
 

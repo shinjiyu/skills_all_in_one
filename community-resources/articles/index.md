@@ -7,6 +7,6 @@
 - **Anthropic “断供”风波之后：为什么你需要 OpenCode（以及开源替代的重要性）**  
   文章：`opencode-anthropic-cutoff.md`
 
-- **Ralph Wiggum：让 AI “一直干到做完”为止（以及它在 Oh My OpenCode 里的打开方式）**  
+- **Oh My OpenCode：让 OpenCode 一键进化成“Agent 团队”（以及 Ralph Wiggum 循环开发怎么用）**  
   文章：`ralph-wiggum-plugin-vs-ohmyopencode.md`
 
