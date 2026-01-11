@@ -12,6 +12,22 @@
 - Oh My OpenCode（Sisyphus）在 README 里内置的 Ralph Loop（明确写了 Inspired by Anthropic’s Ralph Wiggum plugin、`<promise>DONE</promise>`、默认 100 次、`/cancel-ralph`、`oh-my-opencode.json` 配置）：[code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)
 - 一个更“工程模板化”的 OpenCode Ralph 插件（Phoenix/React/Expo + TanStack，带 `plan.md`、验证命令、commit 约定等）：[NicholasBarkolias/ralph-opencode-plugin](https://github.com/NicholasBarkolias/ralph-opencode-plugin)
 
+## 0）先补个背景：Oh My OpenCode 是什么？（以及为什么它是“最近一个月才爆火”的项目）
+
+你如果最近才看到 `oh-my-opencode`，很正常——它属于那种**短时间内在开发者圈子里突然出圈**的项目。
+
+它的定位可以简单粗暴地理解成：
+
+- **OpenCode 的“超级装配包 / agent harness”**：把一套“能打的默认工作流”直接装到 OpenCode 里（主 agent + 子 agent + 工具链 + 兼容层）
+- **主打“多模型协作 + 并行/后台任务 + 工程化工具链”**：不是换皮聊天框，而是把“像一个小团队一样干活”做成默认体验
+- **兼容 Claude Code 生态**：它强调有 Claude Code compatibility layer（commands/skills/agents/hooks/plugins 等），让很多 Claude Code 的经验/资产能更容易迁移
+
+为什么它最近火得快？我观察到的原因基本都很“工程现实”：
+
+- **默认配置就能跑**：很多人不想从 0 拼插件/脚本/规则；它把“可用的最佳实践”打包好了
+- **把痛点做成系统能力**：比如你这篇文章关心的 Ralph loop（“不做完别停”），在 `oh-my-opencode` 里就是开箱即用的一环
+- **赶上了“供应链焦虑”**：当上游模型/接入策略变化时，大家会更愿意把工作流迁移到更可控、更可替换的开源栈（这也是 OpenCode 生态最近整体升温的背景）
+
 ## 1）Ralph Wiggum 到底解决什么问题？
 
 如果你用过 AI 编程工具，你一定见过这种场景：
