@@ -52,6 +52,7 @@ nav:
       - 社区资源公众号:
           - 文章合集: community-resources/articles/index.md
           - OpenCode（断供风波后的开源替代）: community-resources/articles/opencode-anthropic-cutoff.md
+          - Ralph Wiggum（循环开发）对比：官方插件 vs Oh My OpenCode: community-resources/articles/ralph-wiggum-plugin-vs-ohmyopencode.md
       - 搜索源管理: community-resources/SEARCH-SOURCES.md
       - 更新日志: community-resources/CHANGELOG.md
       - 搜索日报:
