@@ -84,6 +84,10 @@ def main() -> None:
     if (COMMUNITY_DIR / "reports").exists():
         _sync_dir(COMMUNITY_DIR / "reports", DEST_DIR / "reports", patterns=["*.md"])
 
+    # Copy articles (public-account posts / essays)
+    if (COMMUNITY_DIR / "articles").exists():
+        _sync_dir(COMMUNITY_DIR / "articles", DEST_DIR / "articles", patterns=["*.md"])
+
     # Ensure reports index exists for MkDocs nav/linking (do not rely on git-tracked file).
     reports_dir = DEST_DIR / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)

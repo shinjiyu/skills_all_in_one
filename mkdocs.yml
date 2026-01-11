@@ -49,6 +49,9 @@ nav:
       - 视频教程: community-resources/video-tutorials.md
       - 案例研究: community-resources/case-studies.md
       - 工具和插件: community-resources/tools-and-plugins.md
+      - 社区资源公众号:
+          - 文章合集: community-resources/articles/index.md
+          - OpenCode（断供风波后的开源替代）: community-resources/articles/opencode-anthropic-cutoff.md
       - 搜索源管理: community-resources/SEARCH-SOURCES.md
       - 更新日志: community-resources/CHANGELOG.md
       - 搜索日报:
