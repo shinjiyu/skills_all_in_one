@@ -1,0 +1,22 @@
+{
+  "environment": {
+    "name": "production",
+    "max_file_size_mb": 100,
+    "timeout_seconds": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "paths": {
+      "app": "logs/app.log",
+      "error": "logs/error.log",
+      "access": "logs/access.log"
+    }
+  },
+  "security": {
+    "config_file": "resources/security.json"
+  },
+  "performance": {
+    "config_file": "resources/performance.json"
+  }
+}
+

@@ -1,0 +1,19 @@
+{
+  "team": {
+    "name": "Example Team",
+    "shared_dir": "/shared"
+  },
+  "logging": {
+    "level": "INFO",
+    "path": "logs/team_skill.log",
+    "format": "json"
+  },
+  "permissions": {
+    "file": "resources/permissions.json"
+  },
+  "reporting": {
+    "template": "resources/templates/report_template.md",
+    "output_dir": "/shared/reports"
+  }
+}
+
