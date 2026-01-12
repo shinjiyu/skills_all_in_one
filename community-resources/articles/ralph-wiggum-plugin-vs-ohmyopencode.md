@@ -81,13 +81,15 @@ Ralph 的核心思想是：**把“继续迭代”变成系统默认行为，而
 
 ## 6）对比：官方 Ralph vs Oh My OpenCode Ralph Loop vs ralph-opencode-plugin
 
-| 维度 | Claude Code 官方 Ralph Wiggum | Oh My OpenCode：Ralph Loop | ralph-opencode-plugin |
-|---|---|---|---|
-| 目标 | 让 Claude Code 会话内持续迭代 | 给 OpenCode 提供通用循环能力 | 给特定栈提供“带规约的循环” |
-| 完成信号 | `--completion-promise` 精确匹配 | `<promise>DONE</promise>` | `RALPH_COMPLETE`（并配合 plan.md/脚本） |
-| 安全刹车 | `--max-iterations` | 默认 100，可配 | 迭代次数可控，且有“BLOCKED”处理 |
-| 适用范围 | Claude Code 用户 | OpenCode 用户（偏通用） | Phoenix/React/Expo/TanStack 用户 |
-| 你要做的事 | 把“验收标准”写清楚 | 把“验收标准”写清楚 + 可配底座 | 直接套工程模板，按命令跑 |
+
+| 维度    | Claude Code 官方 Ralph Wiggum | Oh My OpenCode：Ralph Loop | ralph-opencode-plugin            |
+| ----- | --------------------------- | ------------------------- | -------------------------------- |
+| 目标    | 让 Claude Code 会话内持续迭代       | 给 OpenCode 提供通用循环能力       | 给特定栈提供“带规约的循环”                   |
+| 完成信号  | `--completion-promise` 精确匹配 | `<promise>DONE</promise>` | `RALPH_COMPLETE`（并配合 plan.md/脚本） |
+| 安全刹车  | `--max-iterations`          | 默认 100，可配                 | 迭代次数可控，且有“BLOCKED”处理             |
+| 适用范围  | Claude Code 用户              | OpenCode 用户（偏通用）          | Phoenix/React/Expo/TanStack 用户   |
+| 你要做的事 | 把“验收标准”写清楚                  | 把“验收标准”写清楚 + 可配底座         | 直接套工程模板，按命令跑                     |
+
 
 ## 7）怎么写 Prompt 才能让 Oh My OpenCode 的 Ralph Loop 真正跑起来？
 
@@ -109,5 +111,4 @@ Ralph 的核心思想是：**把“继续迭代”变成系统默认行为，而
 - 先把它定义成“OpenCode 的超级装配包 / agent harness”（一条话术就够）
 - 再拿 Ralph Loop 做“可感知的卖点”演示（不做完不让停 + `<promise>DONE</promise>` + `/cancel-ralph` + 默认 100 次）
 - 最后补一句：它还强调 Claude Code 兼容，迁移资产成本更低
-
 

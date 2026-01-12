@@ -37,6 +37,17 @@
   - 发布日期：
   - 标签：实战、演示
 
+## 社区资源公众号：AI 编程 Agent 工具演示（非 Skills 专属）
+
+- **Oh My OpenCode Is Actually Insane**
+  - 链接：https://www.youtube.com/watch?v=G_Snfh2M41M
+  - 平台：YouTube
+  - 时长：待确认
+  - 描述：Oh My OpenCode 的实战演示与体验分享，适合作为“入坑/宣传”的视频素材
+  - 作者：Darren Builds AI
+  - 发布日期：待确认
+  - 标签：OpenCode、Oh My OpenCode、实战、演示
+
 ## 直播回放
 
 - **待补充**

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-10",
-  "version": "1.1.0",
+  "last_updated": "2026-01-12",
+  "version": "1.1.1",
   "resources": {
     "blog_posts": [
       {
@@ -157,6 +157,33 @@
         "publish_date": null,
         "tags": ["tool", "template", "best-practices", "github"],
         "added_date": "2026-01-10"
+      },
+      {
+        "title": "code-yeongyu/oh-my-opencode",
+        "url": "https://github.com/code-yeongyu/oh-my-opencode",
+        "description": "OpenCode 的 Agent Harness 插件（Sisyphus 主控），提供多 Agent、后台任务、工具链与 Claude Code 兼容层",
+        "author": "code-yeongyu",
+        "publish_date": null,
+        "tags": ["tool", "agent", "opencode", "github"],
+        "added_date": "2026-01-12"
+      },
+      {
+        "title": "sst/opencode",
+        "url": "https://github.com/sst/opencode",
+        "description": "OpenCode 开源 AI coding agent 项目（Oh My OpenCode 的底座）",
+        "author": "sst",
+        "publish_date": null,
+        "tags": ["tool", "agent", "opencode", "github"],
+        "added_date": "2026-01-12"
+      },
+      {
+        "title": "NicholasBarkolias/ralph-opencode-plugin",
+        "url": "https://github.com/NicholasBarkolias/ralph-opencode-plugin",
+        "description": "面向 OpenCode 的 Ralph Wiggum 循环开发插件（偏工程模板化：Phoenix/React/Expo + TanStack）",
+        "author": "NicholasBarkolias",
+        "publish_date": null,
+        "tags": ["plugin", "ralph-loop", "opencode", "github"],
+        "added_date": "2026-01-12"
       }
     ],
     "video_tutorials": [
@@ -168,6 +195,15 @@
         "publish_date": null,
         "tags": ["video", "beginner", "skilmd", "youtube"],
         "added_date": "2026-01-10"
+      },
+      {
+        "title": "Oh My OpenCode Is Actually Insane",
+        "url": "https://www.youtube.com/watch?v=G_Snfh2M41M",
+        "description": "Oh My OpenCode 的实战演示与体验分享，适合作为入坑/宣传素材",
+        "author": "Darren Builds AI",
+        "publish_date": null,
+        "tags": ["video", "demo", "opencode", "oh-my-opencode", "youtube"],
+        "added_date": "2026-01-12"
       }
     ],
     "case_studies": [],
@@ -207,17 +243,35 @@
         "publish_date": null,
         "tags": ["standard", "spec", "ecosystem"],
         "added_date": "2026-01-10"
+      },
+      {
+        "title": "Oh My OpenCode",
+        "url": "https://github.com/code-yeongyu/oh-my-opencode",
+        "description": "OpenCode 的 Agent Harness 插件（Sisyphus 主控），提供多 Agent、后台任务、工具链与 Claude Code 兼容层",
+        "author": "code-yeongyu",
+        "publish_date": null,
+        "tags": ["tool", "plugin", "opencode", "agent"],
+        "added_date": "2026-01-12"
+      },
+      {
+        "title": "OpenCode",
+        "url": "https://opencode.ai/",
+        "description": "开源 AI coding agent（终端/TUI），支持接入多家模型与工具链扩展，是 Oh My OpenCode 的底座",
+        "author": "OpenCode 社区",
+        "publish_date": null,
+        "tags": ["tool", "opencode", "cli", "tui"],
+        "added_date": "2026-01-12"
       }
     ]
   },
   "statistics": {
-    "total_resources": 22,
+    "total_resources": 28,
     "by_category": {
       "blog_posts": 10,
-      "github_repositories": 7,
-      "video_tutorials": 1,
+      "github_repositories": 10,
+      "video_tutorials": 2,
       "case_studies": 0,
-      "tools_and_plugins": 4
+      "tools_and_plugins": 6
     }
   }
 }

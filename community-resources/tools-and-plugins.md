@@ -30,6 +30,28 @@
   - 作者：社区维护（claude-plugins.dev）
   - 标签：平台、市场、分发、社区
 
+## 社区资源公众号：AI 编程 Agent 工具链（非 Skills 专属）
+
+> 说明：本节偏“社区资源公众号”的选题方向，关注 AI 编程工具链/Agent harness。它们不一定直接讲 SKILL.md，但对“工程化代理工作流”非常有参考价值。
+
+- **Oh My OpenCode**
+  - 工具名称：Oh My OpenCode（OpenCode 插件 / Agent Harness）
+  - 链接：https://github.com/code-yeongyu/oh-my-opencode
+  - 类型：OpenCode 插件 / Agent Harness
+  - 描述：将 OpenCode 升级为“多 Agent + 工具链 + Claude Code 兼容层”的装配包（Sisyphus 主控、后台任务、LSP/AST 工具、MCP 集成等）
+  - 作者：code-yeongyu
+  - 标签：OpenCode、插件、Agent、编程工具链
+  - 添加日期：2026-01-12
+
+- **OpenCode**
+  - 工具名称：OpenCode（开源 AI coding agent）
+  - 链接：https://opencode.ai/
+  - 类型：CLI / TUI 工具
+  - 描述：开源 AI coding agent（终端/TUI），支持接入多家模型与工具链扩展，是 Oh My OpenCode 的底座
+  - 作者：OpenCode 社区
+  - 标签：OpenSource、Agent、CLI、TUI
+  - 添加日期：2026-01-12
+
 ## 编辑器插件
 
 ### VS Code 插件

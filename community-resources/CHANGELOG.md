@@ -49,6 +49,23 @@
 ### 改进
 - **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.0），补齐资源条目并更新统计与最后更新时间（2026-01-10）
 
+---
+
+## 2026-01-12
+
+### 新增
+- **社区资源公众号资料**：新增 2026-01-12 搜索日报（聚焦 Oh My OpenCode / OpenCode / Ralph Loop）
+  - `community-resources/reports/daily-search-2026-01-12.md`
+- **工具和插件**：新增 “社区资源公众号：AI 编程 Agent 工具链（非 Skills 专属）” 小节
+  - Oh My OpenCode：https://github.com/code-yeongyu/oh-my-opencode
+  - OpenCode：https://opencode.ai/
+- **视频演示**：新增 Oh My OpenCode 的实战演示视频
+  - https://www.youtube.com/watch?v=G_Snfh2M41M
+- **GitHub 仓库**：新增 “社区资源公众号：AI 编程 Agent 工具链（非 Skills 专属）” 相关仓库条目
+  - https://github.com/code-yeongyu/oh-my-opencode
+  - https://github.com/sst/opencode
+  - https://github.com/NicholasBarkolias/ralph-opencode-plugin
+
 ## 2026-01-06
 
 ### 新增

@@ -92,4 +92,32 @@
 
 **注意**：本列表会持续更新，请定期查看最新内容。
 
+## 社区资源公众号：AI 编程 Agent 工具链（非 Skills 专属）
+
+> 说明：本节用于收录“社区资源公众号”相关的 AI 编程工具链仓库（并不都以 SKILL.md 为主题）。
+
+- **code-yeongyu/oh-my-opencode**
+  - 链接：https://github.com/code-yeongyu/oh-my-opencode
+  - 描述：OpenCode 的 Agent Harness 插件（Sisyphus 主控），提供多 Agent、后台任务、工具链与 Claude Code 兼容层
+  - 作者：code-yeongyu
+  - Stars：待确认（GitHub API 可能限流）
+  - 标签：OpenCode、插件、Agent、工具链
+  - 添加日期：2026-01-12
+
+- **sst/opencode**
+  - 链接：https://github.com/sst/opencode
+  - 描述：OpenCode 开源 AI coding agent 项目（Oh My OpenCode 的底座）
+  - 作者：sst
+  - Stars：待确认（GitHub API 可能限流）
+  - 标签：OpenSource、AI coding、Agent、CLI
+  - 添加日期：2026-01-12
+
+- **NicholasBarkolias/ralph-opencode-plugin**
+  - 链接：https://github.com/NicholasBarkolias/ralph-opencode-plugin
+  - 描述：面向 OpenCode 的 Ralph Wiggum 循环开发插件（偏工程模板化：Phoenix/React/Expo + TanStack）
+  - 作者：NicholasBarkolias
+  - Stars：待确认（GitHub API 可能限流）
+  - 标签：OpenCode、Ralph Loop、插件、工程规约
+  - 添加日期：2026-01-12
+
 
