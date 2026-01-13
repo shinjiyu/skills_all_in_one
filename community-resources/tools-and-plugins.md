@@ -14,6 +14,15 @@
   - 作者：jimmysong
   - 标签：工具、转换工具、自动化
 
+- **Claude Code Plugins（Anthropic 官方插件目录）**
+  - 工具名称：Claude Code Plugins（Official directory）
+  - 链接：https://github.com/anthropics/claude-code/tree/main/plugins
+  - 类型：官方仓库 / 插件目录 / 参考入口
+  - 描述：Anthropic 官方维护的 Claude Code 插件示例目录，集中展示 commands/agents/skills/hooks/MCP 等插件能力形态（含 plugin-dev、hookify、code-review、ralph-wiggum 等），适合作为“插件样板间”和长期跟踪源
+  - 作者：Anthropic
+  - 标签：官方、插件、示例、Claude Code、Hooks、MCP
+  - 添加日期：2026-01-13
+
 - **AgentSkills.best**
   - 工具名称：AgentSkills.best
   - 链接：https://agentskills.best/zh

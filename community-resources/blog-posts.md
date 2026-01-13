@@ -184,6 +184,13 @@
   - 发布日期：待确认
   - 标签：技术、深度、Token 优化、上下文管理、Agent Skills
 
+- **使用 Agent 编码的最佳实践（Cursor 官方博客）**
+  - 链接：https://cursor.com/cn/blog/agent-best-practices
+  - 描述：Cursor 团队总结的编码 Agent 协作指南，涵盖 agent harness（instructions/tools/messages）、Plan 模式、上下文管理、Rules vs Skills、hooks 循环（Stop hook + DONE 信号 + max iterations）以及并行/云端 Agent 等工作流要点
+  - 作者：Cursor Team
+  - 发布日期：2026-01-09
+  - 标签：官方博客、最佳实践、Agent、工作流、Rules、Skills、Hooks
+
 - **Claude just got customizable 'Skills' - here's how they could supercharge your workflow**
   - 链接：https://www.tomsguide.com/ai/claude-just-got-customizable-skills-heres-how-they-could-supercharge-your-workflow
   - 描述：深度分析 Claude Skills 功能及其如何提升工作流程的技术文章

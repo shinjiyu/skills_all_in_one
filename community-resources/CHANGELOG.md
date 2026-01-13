@@ -66,6 +66,21 @@
   - https://github.com/sst/opencode
   - https://github.com/NicholasBarkolias/ralph-opencode-plugin
 
+---
+
+## 2026-01-13
+
+### 新增
+- **搜索日报**：新增 2026-01-13 搜索日报（聚焦 Cursor Agent 最佳实践 / Claude Code Skills/Plugins 一手入口）
+  - `community-resources/reports/daily-search-2026-01-13.md`
+- **官方博客**：新增 Cursor 官方博客文章「使用 Agent 编码的最佳实践」（2026-01-09）
+  - https://cursor.com/cn/blog/agent-best-practices
+- **工具和插件**：新增 Anthropic 官方 Claude Code 插件目录（官方示例集合入口）
+  - https://github.com/anthropics/claude-code/tree/main/plugins
+
+### 改进
+- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.2），新增资源条目并更新统计与最后更新时间（2026-01-13）
+
 ## 2026-01-06
 
 ### 新增

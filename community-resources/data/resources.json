@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-12",
-  "version": "1.1.1",
+  "last_updated": "2026-01-13",
+  "version": "1.1.2",
   "resources": {
     "blog_posts": [
       {
@@ -92,6 +92,15 @@
         "publish_date": "2025-10-23",
         "tags": ["community", "tutorial", "beginner", "english"],
         "added_date": "2026-01-10"
+      },
+      {
+        "title": "Agent Coding Best Practices (Cursor Blog)",
+        "url": "https://cursor.com/cn/blog/agent-best-practices",
+        "description": "Cursor 团队总结的编码 Agent 协作指南，涵盖 agent harness、Plan 模式、上下文管理、Rules vs Skills、hooks 循环等工作流要点",
+        "author": "Cursor Team",
+        "publish_date": "2026-01-09",
+        "tags": ["official", "blog", "best-practices", "agent", "workflow", "cursor"],
+        "added_date": "2026-01-13"
       }
     ],
     "github_repositories": [
@@ -261,17 +270,26 @@
         "publish_date": null,
         "tags": ["tool", "opencode", "cli", "tui"],
         "added_date": "2026-01-12"
+      },
+      {
+        "title": "Claude Code Plugins (Official directory)",
+        "url": "https://github.com/anthropics/claude-code/tree/main/plugins",
+        "description": "Anthropic 官方维护的 Claude Code 插件示例目录，集中展示 commands/agents/skills/hooks/MCP 等插件能力形态",
+        "author": "Anthropic",
+        "publish_date": null,
+        "tags": ["official", "plugins", "examples", "claude-code", "hooks", "mcp"],
+        "added_date": "2026-01-13"
       }
     ]
   },
   "statistics": {
-    "total_resources": 28,
+    "total_resources": 30,
     "by_category": {
-      "blog_posts": 10,
+      "blog_posts": 11,
       "github_repositories": 10,
       "video_tutorials": 2,
       "case_studies": 0,
-      "tools_and_plugins": 6
+      "tools_and_plugins": 7
     }
   }
 }
