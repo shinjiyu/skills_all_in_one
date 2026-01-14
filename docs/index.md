@@ -8,8 +8,15 @@
 
 ![公众号二维码](assets/wechat-qrcode.jpg)
 
+## 🔥 每日更新（优先查看）
+
+> 📈 [**最新资源日报**](community-resources/reports/index.md) - 每天自动搜索最新 Skills 资源
+>
+> 🆕 **今日更新**：发现 8 个优质 Skills 资源（2026-01-14）
+
 ## 快速入口
 
+- **📈 每日更新**：见左侧导航「每日更新」
 - **教程系列**：见左侧导航「教程系列」
 - **社区资源库**：见左侧导航「社区资源库」
 - **仓库主页**：`https://github.com/shinjiyu/skills_all_in_one`

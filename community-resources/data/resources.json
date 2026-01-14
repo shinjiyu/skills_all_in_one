@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-13",
-  "version": "1.1.2",
+  "last_updated": "2026-01-14",
+  "version": "1.1.3",
   "resources": {
     "blog_posts": [
       {
@@ -101,6 +101,33 @@
         "publish_date": "2026-01-09",
         "tags": ["official", "blog", "best-practices", "agent", "workflow", "cursor"],
         "added_date": "2026-01-13"
+      },
+      {
+        "title": "How to Create Skills: Key Steps, Limitations, and Examples (Claude Blog)",
+        "url": "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples",
+        "description": "Claude 官方博客详细介绍两种创建 Skills 的方法：通过对话创建和手动编写 SKILL.md 文件，包含关键步骤、最佳实践和实际示例",
+        "author": "Anthropic",
+        "publish_date": "2025-10",
+        "tags": ["official", "blog", "tutorial", "skilmd", "examples"],
+        "added_date": "2026-01-14"
+      },
+      {
+        "title": "Obsidian Skills: Deep Integration Between Claude Code and Your Knowledge Base",
+        "url": "https://claudecn.com/en/blog/obsidian-skills-for-claude-code/",
+        "description": "Claude 中文社区文章，介绍 Claude Code 与 Obsidian 知识库的深度集成，提供 obsidian-markdown、obsidian-bases、json-canvas 三个核心 Skills",
+        "author": "Claude 中文社区",
+        "publish_date": "2025-10",
+        "tags": ["community", "integration", "obsidian", "tutorial", "chinese"],
+        "added_date": "2026-01-14"
+      },
+      {
+        "title": "Five Steps to Create a Skill (Agent Skills Index)",
+        "url": "https://agentskillsindex.com/en/docs/create-skills/five-steps",
+        "description": "Agent Skills Index 提供的创建 Skills 的五步骤指南，详细介绍 SKILL.md 文件编写、目录组织结构和测试方法",
+        "author": "Agent Skills Index",
+        "publish_date": "2025-10",
+        "tags": ["tutorial", "guide", "skilmd", "best-practices"],
+        "added_date": "2026-01-14"
       }
     ],
     "github_repositories": [
@@ -213,6 +240,15 @@
         "publish_date": null,
         "tags": ["video", "demo", "opencode", "oh-my-opencode", "youtube"],
         "added_date": "2026-01-12"
+      },
+      {
+        "title": "不写代码也能定制 AI 工作流？Claude Skills 让你的 AI 更懂你",
+        "url": "https://www.bilibili.com/video/BV1QvWCzDEVH/",
+        "description": "Bilibili 视频教程，详细演示六种实际场景的内容工作流定制，深入讲解 SKILL.md 文件结构、最佳实践和安全考虑",
+        "author": "未知",
+        "publish_date": "2025-10-17",
+        "tags": ["video", "tutorial", "chinese", "bilibili", "workflow", "skilmd"],
+        "added_date": "2026-01-14"
       }
     ],
     "case_studies": [],
@@ -279,17 +315,26 @@
         "publish_date": null,
         "tags": ["official", "plugins", "examples", "claude-code", "hooks", "mcp"],
         "added_date": "2026-01-13"
+      },
+      {
+        "title": "Agentman AI (No-Code Skills Builder)",
+        "url": "https://agentman.ai/agentskills/create",
+        "description": "无代码的 Skills 构建平台，通过自然语言描述需求即可创建自定义 AI Skills，支持 Claude、Codex、ChatGPT 等多种 AI 助手",
+        "author": "Agentman AI",
+        "publish_date": "2025-10",
+        "tags": ["tool", "no-code", "builder", "platform", "automation"],
+        "added_date": "2026-01-14"
       }
     ]
   },
   "statistics": {
-    "total_resources": 30,
+    "total_resources": 35,
     "by_category": {
-      "blog_posts": 11,
+      "blog_posts": 14,
       "github_repositories": 10,
-      "video_tutorials": 2,
+      "video_tutorials": 3,
       "case_studies": 0,
-      "tools_and_plugins": 7
+      "tools_and_plugins": 8
     }
   }
 }

@@ -21,6 +21,26 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
+  - 📈 每日更新:
+      - 最新日报: community-resources/reports/index.md
+      - 2026-01-14: community-resources/reports/daily-search-2026-01-14.md
+      - 2026-01-13: community-resources/reports/daily-search-2026-01-13.md
+      - 2026-01-12: community-resources/reports/daily-search-2026-01-12.md
+      - 2026-01-10: community-resources/reports/daily-search-2026-01-10.md
+      - 2026-01-09: community-resources/reports/daily-search-2026-01-09.md
+  - 社区资源库:
+      - 总览: community-resources/index.md
+      - GitHub 仓库: community-resources/github-repositories.md
+      - 博客文章: community-resources/blog-posts.md
+      - 视频教程: community-resources/video-tutorials.md
+      - 案例研究: community-resources/case-studies.md
+      - 工具和插件: community-resources/tools-and-plugins.md
+      - 社区资源公众号:
+          - 文章合集: community-resources/articles/index.md
+          - OpenCode（断供风波后的开源替代）: community-resources/articles/opencode-anthropic-cutoff.md
+          - Oh My OpenCode（Agent 团队 + Ralph Loop）: community-resources/articles/ralph-wiggum-plugin-vs-ohmyopencode.md
+      - 搜索源管理: community-resources/SEARCH-SOURCES.md
+      - 更新日志: community-resources/CHANGELOG.md
   - 教程系列:
       - 总览: wechat-series/README.md
       - 01 - What is Skills: wechat-series/01-what-is-skills/README.md
@@ -42,22 +62,3 @@ nav:
       - 质量检查清单: quality-checklist.md
       - 阅读时间指南: reading-time-guide.md
       - 文章大纲: article-outlines.md
-  - 社区资源库:
-      - 总览: community-resources/index.md
-      - GitHub 仓库: community-resources/github-repositories.md
-      - 博客文章: community-resources/blog-posts.md
-      - 视频教程: community-resources/video-tutorials.md
-      - 案例研究: community-resources/case-studies.md
-      - 工具和插件: community-resources/tools-and-plugins.md
-      - 社区资源公众号:
-          - 文章合集: community-resources/articles/index.md
-          - OpenCode（断供风波后的开源替代）: community-resources/articles/opencode-anthropic-cutoff.md
-          - Oh My OpenCode（Agent 团队 + Ralph Loop）: community-resources/articles/ralph-wiggum-plugin-vs-ohmyopencode.md
-      - 搜索源管理: community-resources/SEARCH-SOURCES.md
-      - 更新日志: community-resources/CHANGELOG.md
-      - 搜索日报:
-          - 汇总: community-resources/reports/index.md
-          - 2026-01-09: community-resources/reports/daily-search-2026-01-09.md
-          - 2026-01-10: community-resources/reports/daily-search-2026-01-10.md
-          - 2026-01-12: community-resources/reports/daily-search-2026-01-12.md
-          - 2026-01-13: community-resources/reports/daily-search-2026-01-13.md
