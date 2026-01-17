@@ -1,0 +1,178 @@
+{
+  "search_sources": {
+    "official_blogs": [
+      {
+        "name": "Cursor 官方博客",
+        "base_url": "https://cursor.com/cn/blog",
+        "description": "Cursor 官方技术博客，包含动态上下文发现等最新技术文章",
+        "added_date": "2026-01-06",
+        "added_reason": "用户提供资源：动态上下文发现文章",
+        "search_patterns": [
+          "site:cursor.com/cn/blog Skills",
+          "site:cursor.com/cn/blog Agent Skills",
+          "site:cursor.com/cn/blog SKILL.md"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Claude 官方博客",
+        "base_url": "https://www.claude.com/blog",
+        "description": "Claude 官方博客，包含 Skills 相关技术文章",
+        "added_date": "2026-01-06",
+        "added_reason": "官方文档归档时发现",
+        "search_patterns": [
+          "site:claude.com/blog Skills",
+          "site:claude.com/blog Agent Skills"
+        ],
+        "priority": "high"
+      }
+    ],
+    "community_sites": [
+      {
+        "name": "Claude 中文社区",
+        "base_url": "https://claudecn.com/docs",
+        "description": "Claude 中文社区文档，包含 Agent Skills 详细文档",
+        "added_date": "2026-01-06",
+        "added_reason": "官方文档归档时发现",
+        "search_patterns": [
+          "site:claudecn.com/docs Agent Skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Claude Skills 社区",
+        "base_url": "https://www.claudeskills.org",
+        "description": "Claude Skills 学习及案例社区",
+        "added_date": "2026-01-06",
+        "added_reason": "官方文档归档时发现",
+        "search_patterns": [
+          "site:claudeskills.org Skills"
+        ],
+        "priority": "medium"
+      },
+      {
+        "name": "Agent Skills Index",
+        "base_url": "https://agentskillsindex.com",
+        "description": "Agent Skills 开发指南和规范平台，提供创建教程和最佳实践",
+        "added_date": "2026-01-14",
+        "added_reason": "日报搜索发现，提供Skills创建五步骤指南",
+        "search_patterns": [
+          "site:agentskillsindex.com Skills",
+          "site:agentskillsindex.com create Skills",
+          "site:agentskillsindex.com SKILL.md"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Agentman AI",
+        "base_url": "https://agentman.ai",
+        "description": "无代码Skills构建平台，支持多AI助手",
+        "added_date": "2026-01-14",
+        "added_reason": "日报搜索发现的无代码Skills开发工具",
+        "search_patterns": [
+          "site:agentman.ai Skills",
+          "site:agentman.ai agentskills"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "github_organizations": [
+      {
+        "name": "Anthropic",
+        "base_url": "https://github.com/anthropics",
+        "description": "Anthropic 官方 GitHub 组织",
+        "added_date": "2026-01-06",
+        "added_reason": "GitHub 仓库搜索时发现",
+        "search_patterns": [
+          "org:anthropics SKILL.md",
+          "org:anthropics Skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Letta AI",
+        "base_url": "https://github.com/letta-ai",
+        "description": "Letta AI 的 Skills 相关项目",
+        "added_date": "2026-01-06",
+        "added_reason": "GitHub 仓库搜索时发现",
+        "search_patterns": [
+          "org:letta-ai SKILL.md",
+          "org:letta-ai Skills"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "documentation_sites": [
+      {
+        "name": "Claude Code 官方文档",
+        "base_url": "https://code.claude.com/docs",
+        "description": "Claude Code Skills 官方文档",
+        "added_date": "2026-01-06",
+        "added_reason": "官方文档归档时发现",
+        "search_patterns": [
+          "site:code.claude.com/docs Skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Cursor 文档",
+        "base_url": "https://cursor.com/docs",
+        "description": "Cursor 官方文档，包含 Skills 相关说明",
+        "added_date": "2026-01-06",
+        "added_reason": "官方文档归档时发现",
+        "search_patterns": [
+          "site:cursor.com/docs Skills"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  "search_strategy": {
+    "default_keywords": [
+      "Agent Skills",
+      "Claude Skills",
+      "SKILL.md",
+      "create Skills",
+      "build Skills",
+      "Skills examples",
+      "Skills best practices"
+    ],
+    "exclude_keywords": [
+      "Claude Code tutorial",
+      "Claude Code install",
+      "Claude Code usage"
+    ],
+    "priority_order": [
+      "official_blogs",
+      "documentation_sites",
+      "community_sites",
+      "github_organizations"
+    ]
+  },
+  "update_log": [
+    {
+      "date": "2026-01-06",
+      "action": "创建搜索源配置文件",
+      "added_sources": [
+        "Cursor 官方博客",
+        "Claude 官方博客",
+        "Claude 中文社区",
+        "Claude Skills 社区",
+        "Anthropic GitHub",
+        "Letta AI GitHub",
+        "Claude Code 官方文档",
+        "Cursor 文档"
+      ],
+      "reason": "建立动态搜索源机制，支持可扩展的搜索策略"
+    },
+    {
+      "date": "2026-01-14",
+      "action": "添加新的搜索源",
+      "added_sources": [
+        "Agent Skills Index",
+        "Agentman AI"
+      ],
+      "reason": "根据14号日报发现的新资源，扩展搜索源覆盖范围"
+    }
+  ]
+}
