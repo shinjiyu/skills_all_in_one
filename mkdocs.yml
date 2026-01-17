@@ -22,12 +22,8 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 📈 每日更新:
-      - 最新日报: community-resources/reports/index.md
-      - 2026-01-14: community-resources/reports/daily-search-2026-01-14.md
-      - 2026-01-13: community-resources/reports/daily-search-2026-01-13.md
-      - 2026-01-12: community-resources/reports/daily-search-2026-01-12.md
-      - 2026-01-10: community-resources/reports/daily-search-2026-01-10.md
-      - 2026-01-09: community-resources/reports/daily-search-2026-01-09.md
+      - 最新日报: community-resources/reports/daily-search-latest.md
+      - 日报汇总: community-resources/reports/index.md
   - 社区资源库:
       - 总览: community-resources/index.md
       - GitHub 仓库: community-resources/github-repositories.md
