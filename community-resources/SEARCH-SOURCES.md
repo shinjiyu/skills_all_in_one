@@ -17,6 +17,8 @@
 |---------|---------|--------|---------|---------|
 | Claude 中文社区 | https://claudecn.com/docs | 高 | 2026-01-06 | 官方文档归档时发现 |
 | Claude Skills 社区 | https://www.claudeskills.org | 中 | 2026-01-06 | 官方文档归档时发现 |
+| Agent Skills Index | https://agentskillsindex.com | 高 | 2026-01-14 | 日报搜索发现，提供Skills创建五步骤指南 |
+| Agentman AI | https://agentman.ai | 中 | 2026-01-14 | 日报搜索发现的无代码Skills开发工具 |
 
 ### 3. GitHub 组织 (github_organizations)
 

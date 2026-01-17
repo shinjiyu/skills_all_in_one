@@ -18,7 +18,7 @@
 ### 1. Cursor 官方博客：使用 Agent 编码的最佳实践 ⭐⭐⭐⭐⭐
 
 - **类型**：官方博客 / 最佳实践 / 工作流
-- **链接**：https://cursor.com/cn/blog/agent-best-practices
+- **链接**：[查看文章](https://cursor.com/cn/blog/agent-best-practices)
 - **发布日期**：2026-01-09
 - **要点**：
   - 明确提出 **agent harness** 三件套：**Instructions / Tools / User messages**
@@ -33,7 +33,7 @@
 ### 2. Anthropic 官方仓库：Claude Code Plugins（官方插件目录）⭐⭐⭐⭐
 
 - **类型**：官方仓库 / 插件目录 / 参考入口
-- **链接**：https://github.com/anthropics/claude-code/tree/main/plugins
+- **链接**：[查看仓库](https://github.com/anthropics/claude-code/tree/main/plugins)
 - **要点**：
   - 官方插件目录的“总入口”，包含多套可直接参考的插件形态：commands/agents/skills/hooks/MCP
   - 目录 README 里有一张结构化表格，能快速定位各插件提供的能力（例如：`plugin-dev`、`hookify`、`code-review`、`ralph-wiggum` 等）

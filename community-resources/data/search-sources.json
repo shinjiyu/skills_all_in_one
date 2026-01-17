@@ -49,6 +49,31 @@
           "site:claudeskills.org Skills"
         ],
         "priority": "medium"
+      },
+      {
+        "name": "Agent Skills Index",
+        "base_url": "https://agentskillsindex.com",
+        "description": "Agent Skills 开发指南和规范平台，提供创建教程和最佳实践",
+        "added_date": "2026-01-14",
+        "added_reason": "日报搜索发现，提供Skills创建五步骤指南",
+        "search_patterns": [
+          "site:agentskillsindex.com Skills",
+          "site:agentskillsindex.com create Skills",
+          "site:agentskillsindex.com SKILL.md"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "Agentman AI",
+        "base_url": "https://agentman.ai",
+        "description": "无代码Skills构建平台，支持多AI助手",
+        "added_date": "2026-01-14",
+        "added_reason": "日报搜索发现的无代码Skills开发工具",
+        "search_patterns": [
+          "site:agentman.ai Skills",
+          "site:agentman.ai agentskills"
+        ],
+        "priority": "medium"
       }
     ],
     "github_organizations": [
@@ -139,6 +164,15 @@
         "Cursor 文档"
       ],
       "reason": "建立动态搜索源机制，支持可扩展的搜索策略"
+    },
+    {
+      "date": "2026-01-14",
+      "action": "添加新的搜索源",
+      "added_sources": [
+        "Agent Skills Index",
+        "Agentman AI"
+      ],
+      "reason": "根据14号日报发现的新资源，扩展搜索源覆盖范围"
     }
   ]
 }

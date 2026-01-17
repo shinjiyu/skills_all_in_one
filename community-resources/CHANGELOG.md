@@ -68,18 +68,30 @@
 
 ---
 
-## 2026-01-13
+## 2026-01-14
 
 ### 新增
-- **搜索日报**：新增 2026-01-13 搜索日报（聚焦 Cursor Agent 最佳实践 / Claude Code Skills/Plugins 一手入口）
-  - `community-resources/reports/daily-search-2026-01-13.md`
-- **官方博客**：新增 Cursor 官方博客文章「使用 Agent 编码的最佳实践」（2026-01-09）
-  - https://cursor.com/cn/blog/agent-best-practices
-- **工具和插件**：新增 Anthropic 官方 Claude Code 插件目录（官方示例集合入口）
-  - https://github.com/anthropics/claude-code/tree/main/plugins
+- **搜索日报**：新增 2026-01-14 搜索日报（聚焦 Skills开发教程、SKILL.md编写、Skills示例和最佳实践）
+  - `community-resources/reports/daily-search-2026-01-14.md`
+- **官方博客**：新增 Claude 官方博客文章「如何创建 Skills 的关键步骤、限制和示例」
+  - https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples
+- **技术文章**：新增 Claude 中文社区的 Obsidian Skills 深度集成文章
+  - https://claudecn.com/en/blog/obsidian-skills-for-claude-code/
+- **教程文档**：新增 Agent Skills Index 的五步骤创建指南
+  - https://agentskillsindex.com/en/docs/create-skills/five-steps
+- **官方文档**：新增 Agent Skills 官方规范站点
+  - https://agentskills.io/
+- **GitHub 仓库**：更新 Anthropic 官方 Skills 示例仓库和 Letta AI 社区仓库
+- **视频教程**：新增 Bilibili 中文视频教程「不写代码也能定制 AI 工作流？Claude Skills 让你的 AI 更懂你」
+  - https://www.bilibili.com/video/BV1QvWCzDEVH/
+- **开发工具**：新增 Agentman AI 无代码 Skills 构建平台
+  - https://agentman.ai/agentskills/create
+- **搜索源扩展**：新增 2 个搜索源（Agent Skills Index、Agentman AI）
 
 ### 改进
-- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.2），新增资源条目并更新统计与最后更新时间（2026-01-13）
+- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.3），新增 8 个资源条目，总计 35 个资源
+- **搜索源配置**：更新 `community-resources/data/search-sources.json`，添加新搜索源和更新日志
+- **搜索源文档**：更新 `community-resources/SEARCH-SOURCES.md`，反映新的搜索源配置
 
 ## 2026-01-06
 

@@ -18,7 +18,7 @@
 ### 1. Introducing Agent Skills（Claude 官方博客）⭐⭐⭐⭐⭐
 
 **类型**：官方公告 / 产品介绍  
-**链接**：https://claude.com/blog/skills  
+**链接**：[查看文章](https://claude.com/blog/skills)  
 **发布日期**：2025-10-16  
 **亮点**：
 - 官方首次系统介绍 Agent Skills 的核心概念与工作方式
@@ -32,7 +32,7 @@
 ### 2. Skills for organizations, partners, the ecosystem（Claude 官方博客）⭐⭐⭐⭐
 
 **类型**：官方公告 / 生态与组织管理  
-**链接**：https://claude.com/blog/organization-skills-and-directory  
+**链接**：[查看文章](https://claude.com/blog/organization-skills-and-directory)  
 **发布日期**：2025-12-18  
 **亮点**：
 - 组织级 Skills 管理（Team/Enterprise）与分发机制
@@ -46,7 +46,7 @@
 ### 3. Equipping agents for the real world with Agent Skills（Anthropic Engineering）⭐⭐⭐⭐⭐
 
 **类型**：官方工程深度文章 / 架构与最佳实践  
-**链接**：https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills  
+**链接**：[查看工程文章](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)  
 **发布日期**：2025-10-16  
 **亮点**：
 - 解释 Skills 的核心设计原则：Progressive disclosure（渐进式加载）
@@ -60,7 +60,7 @@
 ### 4. Introduction to Claude Skills（Claude Cookbook）⭐⭐⭐⭐⭐
 
 **类型**：官方教程 / Notebook（可运行示例）  
-**链接**：https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction  
+**链接**：[查看Cookbook](https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction)  
 **作者**：Alex Notov  
 **发布日期**：2025-10-14  
 **亮点**：
@@ -74,7 +74,7 @@
 ### 5. Agent Skills Open Standard（agentskills.io）⭐⭐⭐⭐
 
 **类型**：开放标准 / 规范站点  
-**链接**：https://agentskills.io/  
+**链接**：[查看规范](https://agentskills.io/)  
 **亮点**：
 - 提供 Skills 的开放规范入口与生态集成指引
 - 附带 GitHub 规范仓库与参考库（校验/生成 prompt XML）
@@ -86,7 +86,7 @@
 ### 6. Claude Code Plugins（claude-plugins.dev）⭐⭐⭐⭐
 
 **类型**：工具 / 社区市场（技能分发）  
-**链接**：https://claude-plugins.dev/  
+**链接**：[查看平台](https://claude-plugins.dev/)  
 **亮点**：
 - 社区维护的 Skills/Plugins 市场，支持下载 ZIP 并导入
 - 提供技能展示、安装指引与来源链接
@@ -98,7 +98,7 @@
 ### 7. metaskills/skill-builder（Skill: skill-builder）⭐⭐⭐⭐
 
 **类型**：GitHub 仓库 / Skills 工具（生成与维护 SKILL.md）  
-**链接**：https://github.com/metaskills/skill-builder/tree/main/SKILL.md  
+**链接**：[查看模板](https://github.com/metaskills/skill-builder/tree/main/SKILL.md)  
 **亮点**：
 - 聚焦“创建/改造/维护 Skills”的工作流与规范
 - 总结 SKILL.md 关键字段与命名约定，适合当作参考模板
@@ -110,7 +110,7 @@
 ### 8. Claude Skills: A Beginner-Friendly Guide (with a Real Example)（Medium）⭐⭐⭐⭐
 
 **类型**：入门教程 / 社区文章  
-**链接**：https://jewelhuq.medium.com/claude-skills-a-beginner-friendly-guide-with-a-real-example-ab8a17081206  
+**链接**：[查看教程](https://jewelhuq.medium.com/claude-skills-a-beginner-friendly-guide-with-a-real-example-ab8a17081206)  
 **作者**：Md Mazaharul Huq  
 **发布日期**：2025-10-23  
 **亮点**：
