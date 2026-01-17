@@ -19,6 +19,8 @@
 | Claude Skills 社区 | https://www.claudeskills.org | 中 | 2026-01-06 | 官方文档归档时发现 |
 | Agent Skills Index | https://agentskillsindex.com | 高 | 2026-01-14 | 日报搜索发现，提供Skills创建五步骤指南 |
 | Agentman AI | https://agentman.ai | 中 | 2026-01-14 | 日报搜索发现的无代码Skills开发工具 |
+| Ai-Agent-Skills | https://github.com/skillcreatorai/Ai-Agent-Skills | 中 | 2026-01-17 | 大型Agent Skills精选库，包含多种实用技能 |
+| Agent-Skills-for-Context-Engineering | https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering | 中 | 2026-01-17 | 上下文工程和多代理架构的技能示例 |
 
 ### 3. GitHub 组织 (github_organizations)
 

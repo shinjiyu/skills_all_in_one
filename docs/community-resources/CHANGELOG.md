@@ -90,6 +90,22 @@
 
 ### 改进
 - **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.3），新增 8 个资源条目，总计 35 个资源
+
+---
+
+## 2026-01-17
+
+### 新增
+- **GitHub 仓库**：新增 2 个优质 Agent Skills 仓库
+  - Ai-Agent-Skills (skillcreatorai)：大型技能精选库，包含前端设计、代码重构等实用技能
+  - Agent-Skills-for-Context-Engineering：专注于上下文工程和多代理架构的技能示例
+- **学术研究**：新增 2 篇 Agent Skills 安全风险研究论文
+  - Security Risks in Agent Skills (ArXiv 2601.10338)：42,447个技能的实证研究，发现26.1%存在漏洞
+  - Prompt Injection in Agent Skills (ArXiv 2510.26328)：关于提示注入攻击的研究
+- **搜索源扩展**：新增 2 个 GitHub 搜索源到配置中
+
+### 改进
+- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.4），新增 5 个资源条目，总计 40 个资源
 - **搜索源配置**：更新 `community-resources/data/search-sources.json`，添加新搜索源和更新日志
 - **搜索源文档**：更新 `community-resources/SEARCH-SOURCES.md`，反映新的搜索源配置
 

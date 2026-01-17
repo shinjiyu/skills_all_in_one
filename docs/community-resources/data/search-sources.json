@@ -173,6 +173,16 @@
         "Agentman AI"
       ],
       "reason": "根据14号日报发现的新资源，扩展搜索源覆盖范围"
+    },
+    {
+      "date": "2026-01-17",
+      "action": "添加新的资源和搜索源",
+      "added_sources": [
+        "Ai-Agent-Skills仓库",
+        "Agent-Skills-for-Context-Engineering仓库",
+        "Agent Skills安全研究论文"
+      ],
+      "reason": "根据17号最新搜索发现的新资源，补充GitHub仓库和学术研究"
     }
   ]
 }
