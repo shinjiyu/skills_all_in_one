@@ -18,7 +18,7 @@
 ### 1. AgentSkills.best 平台 ⭐⭐⭐⭐⭐
 
 **类型**：在线平台 / Skills 市场  
-**链接**：https://agentskills.best/zh  
+**链接**：[查看平台](https://agentskills.best/zh)  
 **亮点**：
 - 专注于 Claude Agent Skills 的综合性平台
 - 提供经过筛选的技能库
@@ -34,7 +34,7 @@
 ### 2. Skill Creator 指南（x-cmd）
 
 **类型**：入门教程  
-**链接**：https://cn.x-cmd.com/skill/anthropics/skill-creator/  
+**链接**：[使用工具](https://cn.x-cmd.com/skill/anthropics/skill-creator/)  
 **内容**：
 - 创建有效技能的核心原则
 - SKILL.md 格式规范
@@ -49,7 +49,7 @@
 ### 3. Anthropic Claude Skills 案例解析（ApFramework）
 
 **类型**：技术深度分析  
-**链接**：https://apframework.com/blog/essay/2025-12-20-Anthropic-Claude-Skills  
+**链接**：[查看文章](https://apframework.com/blog/essay/2025-12-20-Anthropic-Claude-Skills)  
 **发布日期**：2025-12-20  
 **内容**：
 - Anthropic Claude Skills 仓库架构分析
@@ -65,7 +65,7 @@
 ### 4. Claude Skills：简单却革命性的扩展机制（Build School Learn）
 
 **类型**：技术深度分析  
-**链接**：https://learn.build-school.com/zh-hant/claude-skills-simple-yet-revolutionary/  
+**链接**：[查看教程](https://learn.build-school.com/zh-hant/claude-skills-simple-yet-revolutionary/)  
 **内容**：
 - Claude Skills 的革命性扩展机制分析
 - Skills 与程序环境的关系

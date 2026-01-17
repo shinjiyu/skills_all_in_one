@@ -18,7 +18,7 @@
 ### 1. Claude 官方博客：如何创建 Skills 的关键步骤、限制和示例 ⭐⭐⭐⭐⭐
 
 - **类型**：官方博客 / 教程 / 最佳实践
-- **链接**：https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples
+- **链接**：[查看详情](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)
 - **发布日期**：2025-10
 - **要点**：
   - 详细介绍两种创建Skills的方法：通过对话创建和手动编写SKILL.md文件
@@ -31,7 +31,7 @@
 ### 2. Anthropic 官方仓库：Skills 示例集合 ⭐⭐⭐⭐⭐
 
 - **类型**：官方仓库 / 示例代码 / 参考资料
-- **链接**：https://github.com/anthropics/skills
+- **链接**：[查看仓库](https://github.com/anthropics/skills)
 - **发布日期**：2025-10
 - **要点**：
   - Anthropic官方提供的Skills示例仓库
@@ -45,7 +45,7 @@
 ### 3. Letta AI 社区仓库：Skills 知识库 ⭐⭐⭐⭐
 
 - **类型**：社区仓库 / 知识库 / 示例集合
-- **链接**：https://github.com/letta-ai/skills
+- **链接**：[查看仓库](https://github.com/letta-ai/skills)
 - **发布日期**：2025-10
 - **要点**：
   - AI代理共享和获取模块化知识包的社区平台
@@ -59,7 +59,7 @@
 ### 4. Claude 中文社区：Obsidian Skills 深度集成 ⭐⭐⭐⭐
 
 - **类型**：技术文章 / 集成案例 / 实用指南
-- **链接**：https://claudecn.com/en/blog/obsidian-skills-for-claude-code/
+- **链接**：[查看文章](https://claudecn.com/en/blog/obsidian-skills-for-claude-code/)
 - **发布日期**：2025-10
 - **要点**：
   - 介绍Claude Code与Obsidian知识库的深度集成
@@ -73,7 +73,7 @@
 ### 5. Agent Skills Index：创建 Skills 的五步骤指南 ⭐⭐⭐⭐
 
 - **类型**：教程文档 / 开发指南 / 步骤指南
-- **链接**：https://agentskillsindex.com/en/docs/create-skills/five-steps
+- **链接**：[查看指南](https://agentskillsindex.com/en/docs/create-skills/five-steps)
 - **发布日期**：2025-10
 - **要点**：
   - 详细介绍创建Agent Skills的核心步骤
@@ -87,7 +87,7 @@
 ### 6. Agent Skills 官方文档 ⭐⭐⭐⭐
 
 - **类型**：官方文档 / 规范说明 / 参考资料
-- **链接**：https://agentskills.io/
+- **链接**：[查看规范](https://agentskills.io/)
 - **发布日期**：2025-10
 - **要点**：
   - Agent Skills格式的官方规范文档
@@ -101,7 +101,7 @@
 ### 7. Agentman AI：无代码 Skills 创建工具 ⭐⭐⭐
 
 - **类型**：开发工具 / 无代码平台 / 在线工具
-- **链接**：https://agentman.ai/agentskills/create
+- **链接**：[使用工具](https://agentman.ai/agentskills/create)
 - **发布日期**：2025-10
 - **要点**：
   - 无代码的Skills构建平台
@@ -115,7 +115,7 @@
 ### 8. Bilibili 视频教程：Claude Skills 工作流定制 ⭐⭐⭐⭐
 
 - **类型**：视频教程 / 实战演示 / 中文内容
-- **链接**：https://www.bilibili.com/video/BV1QvWCzDEVH/
+- **链接**：[观看视频](https://www.bilibili.com/video/BV1QvWCzDEVH/)
 - **发布日期**：2025-10-17
 - **要点**：
   - 详细演示六种实际场景的内容工作流定制
