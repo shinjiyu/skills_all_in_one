@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-14",
-  "version": "1.1.3",
+  "last_updated": "2026-01-17",
+  "version": "1.1.4",
   "resources": {
     "blog_posts": [
       {
@@ -324,17 +324,53 @@
         "publish_date": "2025-10",
         "tags": ["tool", "no-code", "builder", "platform", "automation"],
         "added_date": "2026-01-14"
+      },
+      {
+        "title": "Ai-Agent-Skills (Skill Creator AI)",
+        "url": "https://github.com/skillcreatorai/Ai-Agent-Skills",
+        "description": "大型的Agent Skills精选库，包含前端设计、代码重构、文档格式等多种实用技能，按照标准格式组织，支持跨平台使用",
+        "author": "Skill Creator AI",
+        "publish_date": "2025-10",
+        "tags": ["github", "examples", "library", "skills-collection"],
+        "added_date": "2026-01-17"
+      },
+      {
+        "title": "Agent-Skills-for-Context-Engineering",
+        "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "description": "专注于上下文工程的Agent Skills仓库，包含多代理架构中的上下文管理、激活模式和模块化系统技能示例",
+        "author": "Murat Can Koylan",
+        "publish_date": "2025-12",
+        "tags": ["github", "context-engineering", "multi-agent", "examples"],
+        "added_date": "2026-01-17"
+      },
+      {
+        "title": "Security Risks in Agent Skills (ArXiv Research)",
+        "url": "https://arxiv.org/abs/2601.10338",
+        "description": "实证研究显示42,447个Agent Skills中26.1%包含漏洞，5.2%为高严重性，重点关注数据泄露、权限提升和提示注入风险",
+        "author": "Research Team",
+        "publish_date": "2026-01",
+        "tags": ["research", "security", "vulnerabilities", "academic-paper"],
+        "added_date": "2026-01-17"
+      },
+      {
+        "title": "Prompt Injection in Agent Skills (ArXiv Research)",
+        "url": "https://arxiv.org/abs/2510.26328",
+        "description": "关于Agent Skills中提示注入攻击的研究，探讨恶意指令如何通过技能文件或外部内容劫持代理行为",
+        "author": "Research Team",
+        "publish_date": "2025-10",
+        "tags": ["research", "security", "prompt-injection", "academic-paper"],
+        "added_date": "2026-01-17"
       }
     ]
   },
   "statistics": {
-    "total_resources": 35,
+    "total_resources": 40,
     "by_category": {
       "blog_posts": 14,
-      "github_repositories": 10,
+      "github_repositories": 12,
       "video_tutorials": 3,
       "case_studies": 0,
-      "tools_and_plugins": 8
+      "tools_and_plugins": 9
     }
   }
 }
