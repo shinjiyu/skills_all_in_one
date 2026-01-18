@@ -90,6 +90,20 @@
   - 发布日期：待确认
   - 标签：官方文档、工具、Cursor
 
+- **About agent skills（GitHub Copilot 官方文档）**
+  - 链接：https://docs.github.com/copilot/concepts/agents/about-agent-skills
+  - 描述：GitHub Copilot 的 Agent Skills 概念文档，解释 Skill 目录结构与 SKILL.md 规范，以及代理如何选择/渐进式加载技能
+  - 作者：GitHub
+  - 发布日期：待确认
+  - 标签：官方文档、标准、SKILL.md、GitHub Copilot
+
+- **Agent Skills Open Standard Specification（开放标准规范）**
+  - 链接：https://agentskills.io/specification
+  - 描述：Agent Skills 开放标准的规范文档，定义 SKILL.md 元数据、目录结构（scripts/references/assets）与校验约束
+  - 作者：agentskills.io
+  - 发布日期：待确认
+  - 标签：标准、规范、参考、SKILL.md
+
 - **Introducing Agent Skills（Claude 官方博客）**
   - 链接：https://claude.com/blog/skills
   - 描述：Claude 官方发布的 Agent Skills 介绍文章，系统解释 Skills 的结构（文件夹 + SKILL.md + 脚本/资源）、触发方式与学习入口

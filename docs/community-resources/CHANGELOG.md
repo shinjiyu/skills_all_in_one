@@ -93,6 +93,22 @@
 
 ---
 
+## 2026-01-18
+
+### 新增
+- **规范/文档**：补充 2 个跨平台 Agent Skills 关键入口
+  - GitHub Copilot：About agent skills（`SKILL.md` 结构与加载机制说明）
+    - https://docs.github.com/copilot/concepts/agents/about-agent-skills
+  - Agent Skills Open Standard：Specification（开放标准规范文档）
+    - https://agentskills.io/specification
+- **搜索日报**：新增 2026-01-18 搜索日报（聚焦标准/文档查漏补缺）
+  - `community-resources/reports/daily-search-2026-01-18.md`
+
+### 改进
+- **数据文件同步**：更新 `community-resources/data/resources.json`（版本 1.1.5），新增 2 个资源条目，总计 42 个资源
+
+---
+
 ## 2026-01-17
 
 ### 新增
