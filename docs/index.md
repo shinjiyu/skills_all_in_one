@@ -12,7 +12,7 @@
 
 > 📈 [**最新资源日报**](community-resources/reports/index.md) - 每天自动搜索最新 Skills 资源
 >
-> 🆕 **今日更新**：发现 8 个优质 Skills 资源（2026-01-14）
+> 🆕 **今日更新**：OpenAI Codex 正式采纳 Agent Skills 标准！新增 3 个资源（2026-01-19）
 
 ## 快速入口
 
