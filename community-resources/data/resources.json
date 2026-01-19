@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-18",
-  "version": "1.1.5",
+  "last_updated": "2026-01-19",
+  "version": "1.1.6",
   "resources": {
     "blog_posts": [
       {
@@ -146,6 +146,24 @@
         "publish_date": null,
         "tags": ["standard", "spec", "reference", "skilmd", "agent-skills"],
         "added_date": "2026-01-18"
+      },
+      {
+        "title": "OpenAI Codex Skills Documentation",
+        "url": "https://developers.openai.com/codex/skills",
+        "description": "OpenAI Codex 官方 Skills 文档，完全采用 Agent Skills 开放标准，支持 SKILL.md 格式、多层级作用域和显式/隐式调用",
+        "author": "OpenAI",
+        "publish_date": "2026-01",
+        "tags": ["official", "docs", "codex", "openai", "standard", "skilmd"],
+        "added_date": "2026-01-19"
+      },
+      {
+        "title": "Agent Skills 终极指南：入门、精通、预测 (53AI)",
+        "url": "https://www.53ai.com/news/tishicikuangjia/2026011865890.html",
+        "description": "全网最完整的 Skills 中文指南（1.2万字），涵盖概念原理、渐进式披露机制、完整开发教程、实战案例与生态预测",
+        "author": "一泽Eze",
+        "publish_date": "2026-01-18",
+        "tags": ["chinese", "tutorial", "guide", "comprehensive", "best-practices"],
+        "added_date": "2026-01-19"
       }
     ],
     "github_repositories": [
@@ -378,17 +396,26 @@
         "publish_date": "2025-10",
         "tags": ["research", "security", "prompt-injection", "academic-paper"],
         "added_date": "2026-01-17"
+      },
+      {
+        "title": "Agent-Skills.md Marketplace",
+        "url": "https://agent-skills.md",
+        "description": "大型 Agent Skills 市场平台，索引 7,387+ 个 Skills，支持多平台（Claude Code、OpenAI Codex、Cursor、VS Code 等），提供浏览、预览、下载功能",
+        "author": "Agent-Skills.md",
+        "publish_date": null,
+        "tags": ["platform", "marketplace", "directory", "cross-platform", "skills-collection"],
+        "added_date": "2026-01-19"
       }
     ]
   },
   "statistics": {
-    "total_resources": 42,
+    "total_resources": 45,
     "by_category": {
-      "blog_posts": 16,
+      "blog_posts": 18,
       "github_repositories": 12,
       "video_tutorials": 3,
       "case_studies": 0,
-      "tools_and_plugins": 9
+      "tools_and_plugins": 10
     }
   }
 }
