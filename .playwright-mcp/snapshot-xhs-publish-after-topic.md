@@ -1,0 +1,328 @@
+### New console messages
+- [LOG] Error @ :2
+
+### Open tabs
+- 0: [小红书 - 你的生活兴趣社区] (https://www.xiaohongshu.com/explore)
+- 1: (current) [小红书创作服务平台] (https://creator.xiaohongshu.com/publish/publish?source=official&from=tab_switch)
+- 2: [] (about:blank)
+
+### Page state
+- Page URL: https://creator.xiaohongshu.com/publish/publish?source=official&from=tab_switch
+- Page Title: 小红书创作服务平台
+- Page Snapshot:
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e6] [cursor=pointer]: 遇到问题
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e17]: 创作服务平台
+      - generic [ref=e19] [cursor=pointer]:
+        - img [ref=e20]
+        - generic [ref=e21]: 间桐慎二
+        - img [ref=e22]
+    - main [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e27] [cursor=pointer]:
+          - text: 发布笔记
+          - img [ref=e28]
+        - generic [ref=e31]:
+          - generic [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+            - generic [ref=e38]: 首页
+          - generic [ref=e40] [cursor=pointer]:
+            - img [ref=e41]
+            - generic [ref=e45]: 笔记管理
+          - generic [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e51]: 数据看板
+            - img [ref=e52]
+          - generic [ref=e57] [cursor=pointer]: 账号概览
+          - generic [ref=e61] [cursor=pointer]: 内容分析
+          - generic [ref=e65] [cursor=pointer]: 粉丝数据
+          - generic [ref=e67] [cursor=pointer]:
+            - img [ref=e68]
+            - generic [ref=e72]: 活动中心
+          - generic [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e79]: 笔记灵感
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e86]: 创作学院
+          - generic [ref=e88] [cursor=pointer]:
+            - img [ref=e89]
+            - generic [ref=e93]: 创作百科
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178] [cursor=pointer]:
+              - img [ref=e180]
+              - text: 发布图文
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: 图片编辑
+                  - generic [ref=e186]: (1/18)
+                  - generic [ref=e187]: 支持拖拽排序
+                  - generic [ref=e188] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e192]: 获取封面建议
+                - generic [ref=e193] [cursor=pointer]: 清空并重新上传
+              - generic [ref=e197] [cursor=pointer]:
+                - img [ref=e198]
+                - generic [ref=e199]: 添加
+            - generic [ref=e204]: 正文内容
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - textbox "填写标题会有更多赞哦～" [ref=e211]: 多Agent长跑怎么做？
+                - generic:
+                  - generic: 10 / 20
+              - generic [ref=e212] [cursor=pointer]:
+                - img [ref=e213]
+                - generic [ref=e214]: 智能标题
+                - img [ref=e215]
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - textbox [active] [ref=e223]:
+                  - paragraph [ref=e499]: 这两天补资源时发现：Agent Skills 的生态开始从“概念讨论”走向“工程化落地”。
+                  - paragraph [ref=e500]
+                  - paragraph [ref=e501]: 今天值得收藏的 3 个关键词：多 Agent 协作、技能/指令分层、跨平台分发。
+                  - paragraph [ref=e502]
+                  - paragraph [ref=e503]: ① Cursor：多 Agent 长时间自治编码怎么扩到“百人协作”？
+                  - paragraph [ref=e504]: 核心是把角色拆开：Planners（产出任务）/ Workers（只管交付）/ Judge（推进下一轮）。
+                  - paragraph [ref=e505]: 他们明确说“扁平自协调 + 锁”会变成瓶颈，反而让系统变慢、让 agent 变保守。
+                  - paragraph [ref=e506]: （搜索：cursor.com/blog/scaling-agents）
+                  - paragraph [ref=e507]
+                  - paragraph [ref=e508]: ② Claude：Skills 到底放在整个栈的哪个位置？
+                  - paragraph [ref=e509]: 如果你经常纠结：规范该写进 Skill 还是 Project？MCP 是连接、Skill 是方法论，那边界怎么划？
+                  - paragraph [ref=e510]: 这篇把边界讲得很清楚，适合团队统一口径。
+                  - paragraph [ref=e511]: （搜索：claude.com/blog/skills-explained）
+                  - paragraph [ref=e512]
+                  - paragraph [ref=e513]: ③ OpenAI Codex：补齐两个“落地必看”的官方文档
+                  - paragraph [ref=e514]: "- Create skills：怎么写 SKILL.md、放哪里、怎么排障"
+                  - paragraph [ref=e515]: （搜索：developers.openai.com/codex/skills/create-skill）
+                  - paragraph [ref=e516]: "- AGENTS.md：项目指令链怎么发现、怎么 override、怎么设 fallback 文件名"
+                  - paragraph [ref=e517]: （搜索：developers.openai.com/codex/guides/agents-md）
+                  - paragraph [ref=e518]
+                  - paragraph [ref=e519]: 我的总结：AGENTS.md 负责“持续的工作约定”，Skills 负责“按需加载的专业能力”。
+                  - paragraph [ref=e520]
+                  - paragraph [ref=e521]: ④ Bonus：多平台用户的“技能同步”工具
+                  - paragraph [ref=e522]: SkillsLM（CLI）：同一套 skills 同步装到 Cursor / Claude Code / Codex / OpenCode / Roo / Goose / Gemini…
+                  - paragraph [ref=e523]: （搜索：53ai SkillsLM 2026011816529）
+                  - paragraph [ref=e524]
+                  - paragraph [ref=e525]: 你现在的工作流更像哪种？
+                  - paragraph [ref=e526]: A：单 agent + 一堆 prompt（容易重复）
+                  - paragraph [ref=e527]: B：AGENTS.md/规则（常驻）+ Skills（按需）
+                  - paragraph [ref=e528]: C：多 Agent 并行（开始遇到协调问题）
+                  - paragraph [ref=e529]
+                  - paragraph [ref=e530]: 我可以按你的选项，把对应的“目录结构/写法模板/最小可用清单”整理一份。
+                  - paragraph [ref=e531]
+                  - paragraph [ref=e532]:
+                    - text: "#AgentSkills #AI编程 #Cursor #Claude #OpenAI"
+                    - generic [ref=e610]:
+                      - text: "#claudecode"
+                      - generic [ref=e611]: "[话题]#"
+                    - text: "#Codex #多智能体 #SKILL文件 #MCP #技术分享"
+                - generic [ref=e225]:
+                  - generic [ref=e227]:
+                    - generic [ref=e533] [cursor=pointer]: "#跑友圈"
+                    - generic [ref=e534] [cursor=pointer]: "#跑步落地方式"
+                    - generic [ref=e535] [cursor=pointer]: "#复盘"
+                    - generic [ref=e536] [cursor=pointer]: "#开发者选项"
+                    - generic [ref=e537] [cursor=pointer]: "#大模型"
+                    - generic [ref=e538] [cursor=pointer]: "#跑步训练"
+                    - generic [ref=e233] [cursor=pointer]: 展开
+                  - generic [ref=e234]:
+                    - text: "1020"
+                    - generic [ref=e235]: /1000
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - button "话题" [ref=e238] [cursor=pointer]:
+                    - img [ref=e239]
+                    - text: 话题
+                  - button [ref=e241] [cursor=pointer]:
+                    - img [ref=e243]
+                - button "用户" [ref=e246] [cursor=pointer]:
+                  - img [ref=e247]
+                  - text: 用户
+                - button "表情" [ref=e250] [cursor=pointer]:
+                  - img [ref=e251]
+                  - text: 表情
+            - generic [ref=e257]:
+              - generic [ref=e260]:
+                - generic [ref=e261]: 活动话题
+                - generic [ref=e262]:
+                  - generic [ref=e263] [cursor=pointer]:
+                    - generic [ref=e264]:
+                      - img [ref=e265]
+                      - generic [ref=e266]: 重返未来1999
+                    - generic [ref=e267]:
+                      - generic [ref=e268]:
+                        - img [ref=e269]
+                        - text: 添加话题
+                      - generic [ref=e270]:
+                        - text: 活动详情
+                        - img [ref=e271]
+                  - generic [ref=e272] [cursor=pointer]:
+                    - generic [ref=e273]:
+                      - img [ref=e274]
+                      - generic [ref=e275]: 织女的聚会
+                    - generic [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - text: 添加话题
+                      - generic [ref=e279]:
+                        - text: 活动详情
+                        - img [ref=e280]
+                  - generic [ref=e281] [cursor=pointer]:
+                    - generic [ref=e282]:
+                      - img [ref=e283]
+                      - generic [ref=e284]: 世界之外
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - img [ref=e287]
+                        - text: 添加话题
+                      - generic [ref=e288]:
+                        - text: 活动详情
+                        - img [ref=e289]
+                  - generic [ref=e290] [cursor=pointer]:
+                    - text: 更多
+                    - img [ref=e291]
+              - generic [ref=e295]:
+                - generic [ref=e297]: 添加地点
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - textbox [ref=e304]
+                    - generic [ref=e305]: 添加地点
+                  - img [ref=e308]
+              - generic [ref=e313]:
+                - generic [ref=e315]: 添加合集
+                - generic [ref=e320]:
+                  - generic [ref=e321]: 添加合集
+                  - img [ref=e324]
+              - generic [ref=e329]:
+                - generic [ref=e331]: 关联群聊
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - textbox [ref=e338]
+                    - generic [ref=e339]: 选择群聊
+                  - img [ref=e342] [cursor=pointer]
+            - generic [ref=e344]:
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - img [ref=e348]
+                  - paragraph [ref=e350]: 标记地点或标记朋友
+                - button "添加标记" [ref=e351] [cursor=pointer]:
+                  - generic [ref=e353]: 添加标记
+              - generic [ref=e358]:
+                - img [ref=e359]
+                - generic [ref=e362]: 添加路线组件
+                - button "添加路线" [ref=e364] [cursor=pointer]:
+                  - generic [ref=e366]: 添加路线
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - img [ref=e372]
+                  - generic [ref=e376]: 关联直播预告
+                - button "关联直播" [ref=e378] [cursor=pointer]:
+                  - generic [ref=e380]: 关联直播
+            - generic [ref=e381]:
+              - generic [ref=e382]: 更多设置
+              - generic [ref=e383] [cursor=pointer]:
+                - text: 收起
+                - img [ref=e384]
+            - generic [ref=e386]:
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - generic [ref=e391]: 原创声明
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: 去声明
+                    - generic [ref=e394]: 声明后将获得原创笔记标记，且平台会保护你的作品
+                - generic [ref=e395]:
+                  - generic [ref=e396]: 内容类型声明
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: 添加内容类型声明
+                    - img [ref=e404]
+              - generic [ref=e406]:
+                - generic [ref=e407]: 可见范围
+                - generic [ref=e411]:
+                  - generic [ref=e413]: 公开可见
+                  - img [ref=e416]
+              - generic [ref=e422]:
+                - generic [ref=e424]: 允许合拍
+                - generic [ref=e430] [cursor=pointer]:
+                  - checkbox [checked]
+              - generic [ref=e436]:
+                - generic [ref=e438]: 允许正文复制
+                - generic [ref=e444] [cursor=pointer]:
+                  - checkbox [checked]
+              - generic [ref=e446]:
+                - generic [ref=e447]: 发布时间
+                - radiogroup "radio-group" [ref=e448]:
+                  - generic [ref=e449] [cursor=pointer]:
+                    - radio "立即发布" [checked] [ref=e451]
+                    - generic [ref=e453]: 立即发布
+                  - generic [ref=e454] [cursor=pointer]:
+                    - radio "定时发布" [ref=e456]
+                    - generic [ref=e458]: 定时发布
+          - generic [ref=e460]:
+            - generic [ref=e461]:
+              - generic [ref=e462] [cursor=pointer]: 笔记预览
+              - generic [ref=e463] [cursor=pointer]: 封面预览
+            - generic [ref=e468]:
+              - generic [ref=e470]:
+                - img "头像" [ref=e471]
+                - generic [ref=e472]: 间桐慎二
+              - generic [ref=e474]:
+                - generic [ref=e539]: 多Agent长跑怎么做？
+                - generic [ref=e540]:
+                  - paragraph [ref=e612]: 这两天补资源时发现：Agent Skills 的生态开始从“概念讨论”走向“工程化落地”。
+                  - paragraph [ref=e613]
+                  - paragraph [ref=e614]: 今天值得收藏的 3 个关键词：多 Agent 协作、技能/指令分层、跨平台分发。
+                  - paragraph [ref=e615]
+                  - paragraph [ref=e616]: ① Cursor：多 Agent 长时间自治编码怎么扩到“百人协作”？
+                  - paragraph [ref=e617]: 核心是把角色拆开：Planners（产出任务）/ Workers（只管交付）/ Judge（推进下一轮）。
+                  - paragraph [ref=e618]: 他们明确说“扁平自协调 + 锁”会变成瓶颈，反而让系统变慢、让 agent 变保守。
+                  - paragraph [ref=e619]: （搜索：cursor.com/blog/scaling-agents）
+                  - paragraph [ref=e620]
+                  - paragraph [ref=e621]: ② Claude：Skills 到底放在整个栈的哪个位置？
+                  - paragraph [ref=e622]: 如果你经常纠结：规范该写进 Skill 还是 Project？MCP 是连接、Skill 是方法论，那边界怎么划？
+                  - paragraph [ref=e623]: 这篇把边界讲得很清楚，适合团队统一口径。
+                  - paragraph [ref=e624]: （搜索：claude.com/blog/skills-explained）
+                  - paragraph [ref=e625]
+                  - paragraph [ref=e626]: ③ OpenAI Codex：补齐两个“落地必看”的官方文档
+                  - paragraph [ref=e627]: "- Create skills：怎么写 SKILL.md、放哪里、怎么排障"
+                  - paragraph [ref=e628]: （搜索：developers.openai.com/codex/skills/create-skill）
+                  - paragraph [ref=e629]: "- AGENTS.md：项目指令链怎么发现、怎么 override、怎么设 fallback 文件名"
+                  - paragraph [ref=e630]: （搜索：developers.openai.com/codex/guides/agents-md）
+                  - paragraph [ref=e631]
+                  - paragraph [ref=e632]: 我的总结：AGENTS.md 负责“持续的工作约定”，Skills 负责“按需加载的专业能力”。
+                  - paragraph [ref=e633]
+                  - paragraph [ref=e634]: ④ Bonus：多平台用户的“技能同步”工具
+                  - paragraph [ref=e635]: SkillsLM（CLI）：同一套 skills 同步装到 Cursor / Claude Code / Codex / OpenCode / Roo / Goose / Gemini…
+                  - paragraph [ref=e636]: （搜索：53ai SkillsLM 2026011816529）
+                  - paragraph [ref=e637]
+                  - paragraph [ref=e638]: 你现在的工作流更像哪种？
+                  - paragraph [ref=e639]: A：单 agent + 一堆 prompt（容易重复）
+                  - paragraph [ref=e640]: B：AGENTS.md/规则（常驻）+ Skills（按需）
+                  - paragraph [ref=e641]: C：多 Agent 并行（开始遇到协调问题）
+                  - paragraph [ref=e642]
+                  - paragraph [ref=e643]: 我可以按你的选项，把对应的“目录结构/写法模板/最小可用清单”整理一份。
+                  - paragraph [ref=e644]
+                  - paragraph [ref=e645]:
+                    - text: "#AgentSkills #AI编程 #Cursor #Claude #OpenAI"
+                    - generic [ref=e646] [cursor=pointer]: "#claudecode"
+                    - text: "#Codex #多智能体 #SKILL文件 #MCP #技术分享"
+                - generic [ref=e482]:
+                  - generic [ref=e483]: 编辑于
+                  - generic [ref=e484]: 刚刚
+                - img [ref=e485]
+                - img "头像" [ref=e487]
+        - generic [ref=e491]:
+          - button "发布" [ref=e492] [cursor=pointer]:
+            - generic [ref=e494]: 发布
+          - button "暂存离开" [ref=e495] [cursor=pointer]:
+            - generic [ref=e497]: 暂存离开
+          - generic [ref=e498]: 自动保存于 17:22
+```
