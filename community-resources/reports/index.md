@@ -2,6 +2,11 @@
 
 这里汇总展示 `community-resources/reports/` 中生成的日报/简报。
 
+## Daily Report
+
+- [2026-01-22](daily-report-2026-01-22.md)
+- [2026-01-06](daily-report-2026-01-06.md)
+
 ## Daily Search
 
 - [2026-01-09](daily-search-2026-01-09.md)

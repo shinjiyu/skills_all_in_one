@@ -74,6 +74,29 @@
           "site:agentman.ai agentskills"
         ],
         "priority": "medium"
+      },
+      {
+        "name": "Agent-Skills.md 市场",
+        "base_url": "https://agent-skills.md",
+        "description": "大型 Agent Skills 市场平台，索引 7,387+ 个 Skills",
+        "added_date": "2026-01-19",
+        "added_reason": "日报搜索发现，目前规模最大的 Skills 索引平台",
+        "search_patterns": [
+          "site:agent-skills.md skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "53AI 知识库",
+        "base_url": "https://www.53ai.com",
+        "description": "企业 AI 知识库平台，包含 Skills 相关深度教程",
+        "added_date": "2026-01-19",
+        "added_reason": "日报搜索发现优质中文 Skills 教程",
+        "search_patterns": [
+          "site:53ai.com Agent Skills",
+          "site:53ai.com SKILL.md"
+        ],
+        "priority": "medium"
       }
     ],
     "github_organizations": [
@@ -122,6 +145,18 @@
         "added_reason": "官方文档归档时发现",
         "search_patterns": [
           "site:cursor.com/docs Skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "name": "OpenAI Codex 文档",
+        "base_url": "https://developers.openai.com/codex",
+        "description": "OpenAI Codex 官方文档，完全采用 Agent Skills 开放标准",
+        "added_date": "2026-01-19",
+        "added_reason": "日报搜索发现，OpenAI Codex 正式采纳 Agent Skills 标准",
+        "search_patterns": [
+          "site:developers.openai.com/codex skills",
+          "site:developers.openai.com/codex SKILL.md"
         ],
         "priority": "high"
       }
@@ -183,6 +218,16 @@
         "Agent Skills安全研究论文"
       ],
       "reason": "根据17号最新搜索发现的新资源，补充GitHub仓库和学术研究"
+    },
+    {
+      "date": "2026-01-19",
+      "action": "添加新的搜索源和资源",
+      "added_sources": [
+        "OpenAI Codex 文档",
+        "Agent-Skills.md 市场平台",
+        "53AI Agent Skills 终极指南"
+      ],
+      "reason": "发现 OpenAI Codex 正式采纳 Agent Skills 标准，并补充中文深度教程和 Skills 市场平台"
     }
   ]
 }

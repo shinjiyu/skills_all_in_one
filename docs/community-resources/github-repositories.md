@@ -25,6 +25,14 @@
   - Stars：待确认
   - 标签：官方、示例、参考
 
+- **meetrais/claude-agent-skills**
+  - 链接：https://github.com/meetrais/claude-agent-skills
+  - 描述：Claude Skills 示例仓库：包含默认文档生成类 skills（xlsx/pptx/pdf/docx）与自定义 skills 框架（示例：git-analyzer），便于参考如何组织 SKILL.md + scripts
+  - 作者：meetrais
+  - Stars：待确认
+  - 标签：示例、框架、SKILL.md、Anthropic
+  - 添加日期：2026-01-22
+
 - **letta-ai/skills**
   - 链接：https://github.com/letta-ai/skills
   - 描述：Letta AI 的共享技能仓库，包含多个技能示例

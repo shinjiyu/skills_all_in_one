@@ -94,37 +94,71 @@ def main() -> None:
     reports_index = reports_dir / "index.md"
 
     # Always regenerate reports index so new daily reports show up on Pages.
-    daily_reports = sorted(
-        [p for p in reports_dir.glob("daily-search-*.md") if p.name != "daily-search-latest.md"],
-        reverse=True,
+    def _sorted_reports(pattern: str, exclude_names: set[str]) -> list[Path]:
+        candidates = []
+        for p in reports_dir.glob(pattern):
+            if p.name in exclude_names:
+                continue
+            # Ignore any "*-latest.md" variants to prevent duplicates.
+            if p.stem.endswith("-latest"):
+                continue
+            candidates.append(p)
+        return sorted(candidates, reverse=True)
+
+    daily_search_reports = _sorted_reports(
+        "daily-search-*.md",
+        exclude_names={"daily-search-latest.md"},
     )
-    items: list[str] = []
-    for p in daily_reports:
-        date = p.stem.replace("daily-search-", "")
-        if p == daily_reports[0]:
-            items.append(f"- [**{date}**]({p.name}) ← 🔥 **最新更新**")
-        else:
-            items.append(f"- [{date}]({p.name})")
-    body = "\n".join(items) if items else "- （暂无）"
+    daily_update_reports = _sorted_reports(
+        "daily-report-*.md",
+        exclude_names={"daily-report-latest.md"},
+    )
+
+    def _render_list(files: list[Path], prefix: str) -> str:
+        if not files:
+            return "- （暂无）"
+        items: list[str] = []
+        for p in files:
+            date = p.stem.replace(prefix, "")
+            if p == files[0]:
+                items.append(f"- [**{date}**]({p.name}) ← 🔥 **最新**")
+            else:
+                items.append(f"- [{date}]({p.name})")
+        return "\n".join(items)
+
     reports_index.write_text(
-        "# 搜索日报（Reports）\n\n"
+        "# 日报（Reports）\n\n"
         "这里汇总展示 `community-resources/reports/` 中生成的日报/简报。\n\n"
-        "## 📈 最新日报\n\n"
-        f"{body}\n\n"
+        "## 🗓️ Daily Report（更新日报）\n\n"
+        f"{_render_list(daily_update_reports, 'daily-report-')}\n\n"
+        "## 🔎 Daily Search（搜索日报）\n\n"
+        f"{_render_list(daily_search_reports, 'daily-search-')}\n\n"
         "> 说明：本目录下的日报文件由脚本自动同步；新增新的日报后，commit + push 即会自动更新 GitHub Pages。\n",
         encoding="utf-8",
     )
 
-    # Generate a stable "latest" page so mkdocs nav doesn't need daily edits.
-    latest_page = reports_dir / "daily-search-latest.md"
-    if daily_reports:
-        latest_page.write_text(
-            daily_reports[0].read_text(encoding="utf-8"),
+    # Generate stable "latest" pages so mkdocs nav doesn't need daily edits.
+    daily_search_latest_page = reports_dir / "daily-search-latest.md"
+    if daily_search_reports:
+        daily_search_latest_page.write_text(
+            daily_search_reports[0].read_text(encoding="utf-8"),
             encoding="utf-8",
         )
     else:
-        latest_page.write_text(
+        daily_search_latest_page.write_text(
             "# 最新搜索日报\n\n- （暂无日报）\n",
+            encoding="utf-8",
+        )
+
+    daily_report_latest_page = reports_dir / "daily-report-latest.md"
+    if daily_update_reports:
+        daily_report_latest_page.write_text(
+            daily_update_reports[0].read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
+    else:
+        daily_report_latest_page.write_text(
+            "# 最新更新日报\n\n- （暂无日报）\n",
             encoding="utf-8",
         )
 
