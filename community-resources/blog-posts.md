@@ -157,6 +157,22 @@
   - 发布日期：待确认
   - 标签：进阶、教程、官方文档
 
+- **Spring AI Agentic Patterns (Part 1): Agent Skills - Modular, Reusable Capabilities**
+  - 链接：https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills
+  - 描述：Spring AI 在 Java 生态落地 Agent Skills（SKILL.md + 渐进式加载 + scripts/references/assets），并讲清“发现→激活→执行”的工作流与安全注意事项
+  - 作者：Christian Tzolov
+  - 发布日期：2026-01-13
+  - 标签：进阶、教程、Java、Spring、SKILL.md、实现
+  - 添加日期：2026-01-22
+
+- **How to Write and Implement Agent Skills（DigitalOcean）**
+  - 链接：https://www.digitalocean.com/community/tutorials/how-to-implement-agent-skills
+  - 描述：从零写一个 Skill（以 PDF 解析为例），解释 SKILL.md frontmatter、目录结构、以及“技能发现/匹配/激活/执行”的集成思路（提到 Claude Code、Codex 等）
+  - 作者：Andrew Dugan
+  - 发布日期：2026-01-15
+  - 标签：进阶、教程、实现、SKILL.md、示例
+  - 添加日期：2026-01-22
+
 - **Skills 开发指南 | ruoyi-plus-uniapp 开发文档**
   - 链接：https://ruoyi.plus/practices/engineering/claude-code-skills
   - 描述：详细的 Skills 开发指南，包含工程实践和最佳实践
@@ -172,6 +188,14 @@
   - 作者：
   - 发布日期：
   - 标签：实战、案例
+
+- **Using Agent Skills to add alt texts to my blog post images**
+  - 链接：https://www.jannemattila.com/appdev/2026/01/12/using-agent-skills.html
+  - 描述：真实项目案例：在仓库 `.github/skills/image-alt-text/SKILL.md` 定义技能，让代理批量为博客图片生成并写回 alt 文本（可复用的技能写法示例）
+  - 作者：Janne Mattila
+  - 发布日期：2026-01-12
+  - 标签：实战、案例、可访问性、SKILL.md、GitHub
+  - 添加日期：2026-01-22
 
 - **如何在 Claude 中创建并使用「Skills」**
   - 链接：https://apifox.com/apiskills/claude-skills/
@@ -189,7 +213,39 @@
   - 发布日期：
   - 标签：最佳实践
 
+- **Writing OpenCode Agent Skills: A Practical Guide with Examples**
+  - 链接：https://jpcaparas.medium.com/writing-opencode-agent-skills-a-practical-guide-with-examples-870ff24eec66
+  - 描述：以 OpenCode 为例讲“如何把团队知识写成可移植的 Skills”，强调 Agent Skills 开放标准带来的跨工具复用（Claude Code / VS Code / Cursor 等）
+  - 作者：JP Caparas
+  - 发布日期：2026-01
+  - 标签：最佳实践、教程、OpenCode、可移植、SKILL.md
+  - 添加日期：2026-01-22
+
 ## 技术深度分析
+
+- **Codex changelog**
+  - 链接：https://developers.openai.com/codex/changelog/
+  - 描述：Codex 对 Skills 的持续迭代记录（例如 2026-01-16 提到可用 SKILL.toml 定义 skill metadata 等），适合追踪“技能规范/实现”在 Codex 侧的变化
+  - 作者：OpenAI
+  - 发布日期：2026-01-21
+  - 标签：官方、Codex、更新日志、Skills、SKILL.md
+  - 添加日期：2026-01-22
+
+- **Skills vs. Commands [vs. Rules]（Cursor 社区讨论）**
+  - 链接：https://forum.cursor.com/t/skills-vs-commands-vs-rules/148875
+  - 描述：梳理 Rules / Commands / Skills / Subagents 的定位差异（含“Skills 是开放标准、nightly 才有”等关键点），适合作为选型与团队共识材料
+  - 作者：Cursor Community
+  - 发布日期：2026-01-14
+  - 标签：Cursor、社区讨论、Rules、Commands、Skills、工作流
+  - 添加日期：2026-01-22
+
+- **SKILL.md is created when creating new cursor rules（Cursor 已知问题）**
+  - 链接：https://forum.cursor.com/t/skill-md-is-created-when-creating-new-cursor-rules/148833
+  - 描述：稳定版创建 Project Rule 误生成 `.cursor/skills/SKILL.md` 的问题与临时规避（登出后再创建），以及官方对 Rules vs Skills 的解释摘要
+  - 作者：Cursor Community
+  - 发布日期：2026-01-14
+  - 标签：Cursor、问题排查、Rules、Skills、SKILL.md
+  - 添加日期：2026-01-22
 
 - **Cursor 动态上下文发现：节省近半数 Token 的突破性技术**
   - 链接：https://cursor.com/cn/blog/dynamic-context-discovery

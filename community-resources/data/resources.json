@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-19",
-  "version": "1.1.6",
+  "last_updated": "2026-01-22",
+  "version": "1.1.7",
   "resources": {
     "blog_posts": [
       {
@@ -164,6 +164,69 @@
         "publish_date": "2026-01-18",
         "tags": ["chinese", "tutorial", "guide", "comprehensive", "best-practices"],
         "added_date": "2026-01-19"
+      },
+      {
+        "title": "Spring AI Agentic Patterns (Part 1): Agent Skills - Modular, Reusable Capabilities",
+        "url": "https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills",
+        "description": "Spring AI 在 Java 生态落地 Agent Skills（SKILL.md + 渐进式加载 + scripts/references/assets），并讲清“发现→激活→执行”的工作流与安全注意事项",
+        "author": "Christian Tzolov",
+        "publish_date": "2026-01-13",
+        "tags": ["tutorial", "spring", "java", "agent-skills", "skilmd", "progressive-disclosure", "implementation"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "How to Write and Implement Agent Skills (DigitalOcean)",
+        "url": "https://www.digitalocean.com/community/tutorials/how-to-implement-agent-skills",
+        "description": "从零写一个 Skill（以 PDF 解析为例），解释 SKILL.md frontmatter、目录结构、以及“技能发现/匹配/激活/执行”的集成思路（提到 Claude Code、Codex 等）",
+        "author": "Andrew Dugan",
+        "publish_date": "2026-01-15",
+        "tags": ["tutorial", "agent-skills", "skilmd", "implementation", "python", "examples"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "Using Agent Skills to add alt texts to my blog post images",
+        "url": "https://www.jannemattila.com/appdev/2026/01/12/using-agent-skills.html",
+        "description": "真实项目案例：在仓库 `.github/skills/image-alt-text/SKILL.md` 定义技能，让代理批量为博客图片生成并写回 alt 文本（可复用的技能写法示例）",
+        "author": "Janne Mattila",
+        "publish_date": "2026-01-12",
+        "tags": ["case-study", "agent-skills", "skilmd", "github-skills", "accessibility", "workflow"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "Writing OpenCode Agent Skills: A Practical Guide with Examples",
+        "url": "https://jpcaparas.medium.com/writing-opencode-agent-skills-a-practical-guide-with-examples-870ff24eec66",
+        "description": "以 OpenCode 为例讲“如何把团队知识写成可移植的 Skills”，强调 Agent Skills 开放标准带来的跨工具复用（Claude Code / VS Code / Cursor 等）",
+        "author": "JP Caparas",
+        "publish_date": "2026-01",
+        "tags": ["tutorial", "opencode", "agent-skills", "skilmd", "best-practices", "cross-platform"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "Codex changelog",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "description": "Codex 对 Skills 的持续迭代记录（例如 2026-01-16 提到可用 SKILL.toml 定义 skill metadata 等），适合追踪“技能规范/实现”在 Codex 侧的变化",
+        "author": "OpenAI",
+        "publish_date": "2026-01-21",
+        "tags": ["official", "codex", "changelog", "skills", "skilmd", "skill-toml"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "Skills vs. Commands [vs. Rules] (Cursor Community Forum)",
+        "url": "https://forum.cursor.com/t/skills-vs-commands-vs-rules/148875",
+        "description": "梳理 Rules / Commands / Skills / Subagents 的定位差异（含“Skills 是开放标准、nightly 才有”等关键点），适合作为选型与团队共识材料",
+        "author": "Cursor Community",
+        "publish_date": "2026-01-14",
+        "tags": ["cursor", "community", "rules", "commands", "skills", "agent-skills", "best-practices"],
+        "added_date": "2026-01-22"
+      },
+      {
+        "title": "SKILL.md is created when creating new cursor rules (Cursor Community Forum)",
+        "url": "https://forum.cursor.com/t/skill-md-is-created-when-creating-new-cursor-rules/148833",
+        "description": "稳定版创建 Project Rule 误生成 `.cursor/skills/SKILL.md` 的问题与临时规避（登出后再创建），以及官方对 Rules vs Skills 的解释摘要",
+        "author": "Cursor Community",
+        "publish_date": "2026-01-14",
+        "tags": ["cursor", "bug", "rules", "skills", "skilmd", "workflow"],
+        "added_date": "2026-01-22"
       }
     ],
     "github_repositories": [
@@ -256,6 +319,15 @@
         "publish_date": null,
         "tags": ["plugin", "ralph-loop", "opencode", "github"],
         "added_date": "2026-01-12"
+      },
+      {
+        "title": "meetrais/claude-agent-skills",
+        "url": "https://github.com/meetrais/claude-agent-skills",
+        "description": "Claude Skills 示例仓库：包含默认文档生成类 skills（xlsx/pptx/pdf/docx）与自定义 skills 框架（示例：git-analyzer），便于参考如何组织 SKILL.md + scripts",
+        "author": "meetrais",
+        "publish_date": null,
+        "tags": ["github", "examples", "agent-skills", "skilmd", "framework", "anthropic"],
+        "added_date": "2026-01-22"
       }
     ],
     "video_tutorials": [
@@ -409,10 +481,10 @@
     ]
   },
   "statistics": {
-    "total_resources": 45,
+    "total_resources": 53,
     "by_category": {
-      "blog_posts": 18,
-      "github_repositories": 12,
+      "blog_posts": 25,
+      "github_repositories": 13,
       "video_tutorials": 3,
       "case_studies": 0,
       "tools_and_plugins": 10
