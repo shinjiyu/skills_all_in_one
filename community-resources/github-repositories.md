@@ -56,6 +56,14 @@
   - Stars：待确认
   - 标签：工具、MCP、框架
 
+- **intellectronica/gemini-cli-skillz**
+  - 链接：https://github.com/intellectronica/gemini-cli-skillz
+  - 描述：Gemini CLI 扩展：通过 skillz MCP server 在 Gemini CLI 中运行 Anthropic-style Agent Skills，可复用同一份 skills 目录
+  - 作者：intellectronica
+  - Stars：待确认
+  - 标签：工具、MCP、Gemini CLI、SKILL.md、跨平台
+  - 添加日期：2026-01-24
+
 - **gotalab/skillport**
   - 链接：https://github.com/gotalab/skillport
   - 描述：将 Agent Skills 引入任何 AI 代理和编码代理的工具
@@ -69,6 +77,14 @@
   - 作者：agentskills
   - Stars：待确认
   - 标签：标准、规范、参考实现、生态
+
+- **alirezarezvani/claude-code-skill-factory**
+  - 链接：https://github.com/alirezarezvani/claude-code-skill-factory
+  - 描述：面向批量生产/部署的 Claude Skills & Agents 工具箱：生成结构化 SKILL.md 模板，自动化构建 Skills/Agents/Slash Commands/Hooks/Prompts，强调验证与分发流程
+  - 作者：alirezarezvani
+  - Stars：待确认
+  - 标签：工具、模板、自动化、生成器、SKILL.md、Claude Code
+  - 添加日期：2026-01-24
 
 - **metaskills/skill-builder**
   - 链接：https://github.com/metaskills/skill-builder

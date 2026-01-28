@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-22",
-  "version": "1.1.7",
+  "last_updated": "2026-01-28",
+  "version": "1.1.8",
   "resources": {
     "blog_posts": [
       {
@@ -227,6 +227,33 @@
         "publish_date": "2026-01-14",
         "tags": ["cursor", "bug", "rules", "skills", "skilmd", "workflow"],
         "added_date": "2026-01-22"
+      },
+      {
+        "title": "Subagents, Skills, and Image Generation (Cursor Changelog 2.4)",
+        "url": "https://cursor.com/changelog/2-4",
+        "description": "Cursor 2.4 更新日志：宣布在编辑器与 CLI 支持 Agent Skills（SKILL.md），并对比 Skills vs Rules 的适用场景，同时引入 Subagents 等 agent harness 能力",
+        "author": "Cursor",
+        "publish_date": "2026-01-22",
+        "tags": ["official", "cursor", "changelog", "skills", "agent-skills", "skilmd", "subagents"],
+        "added_date": "2026-01-24"
+      },
+      {
+        "title": "Agent Skills in 100 lines of Python",
+        "url": "https://www.jairtrejo.com/blog/2026/01/agent-skills",
+        "description": "用 100 多行 Python 实现兼容 Anthropic 公开标准的技能系统，详细讲解技能发现、渐进式加载、工具集成（skill/read/run）的实现原理，强调技能系统的优雅在于简洁实用",
+        "author": "Jair Trejo",
+        "publish_date": "2026-01-11",
+        "tags": ["tutorial", "implementation", "python", "agent-skills", "skilmd", "progressive-disclosure", "code-example"],
+        "added_date": "2026-01-28"
+      },
+      {
+        "title": "How to Build AI Agents with Skills and Tools: Complete 2026 Beginner Guide",
+        "url": "https://redreamality.com/blog/agentskills-io-starter-guide/",
+        "description": "2026 年最全面的 AI Agent Skills 初学者指南，涵盖 Claude、OpenAI、LangChain 等主流平台的工具实现，包含完整代码示例、错误处理、安全最佳实践、性能优化和故障排除指南",
+        "author": "Remy",
+        "publish_date": "2026-01-15",
+        "tags": ["tutorial", "guide", "beginner", "comprehensive", "agent-skills", "best-practices", "code-example", "security"],
+        "added_date": "2026-01-28"
       }
     ],
     "github_repositories": [
@@ -328,6 +355,24 @@
         "publish_date": null,
         "tags": ["github", "examples", "agent-skills", "skilmd", "framework", "anthropic"],
         "added_date": "2026-01-22"
+      },
+      {
+        "title": "alirezarezvani/claude-code-skill-factory",
+        "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+        "description": "面向批量生产/部署的 Claude Skills & Agents 工具箱：生成结构化 SKILL.md 模板，自动化构建 Skills/Agents/Slash Commands/Hooks/Prompts，强调验证与分发流程",
+        "author": "alirezarezvani",
+        "publish_date": null,
+        "tags": ["tool", "generator", "templates", "skills", "agent-skills", "skilmd", "claude-code", "automation", "github"],
+        "added_date": "2026-01-24"
+      },
+      {
+        "title": "intellectronica/gemini-cli-skillz",
+        "url": "https://github.com/intellectronica/gemini-cli-skillz",
+        "description": "Gemini CLI 扩展：通过 skillz MCP server 在 Gemini CLI 中运行 Anthropic-style Agent Skills，可复用同一份 skills 目录",
+        "author": "intellectronica",
+        "publish_date": null,
+        "tags": ["tool", "mcp", "gemini-cli", "skills", "agent-skills", "skilmd", "github"],
+        "added_date": "2026-01-24"
       }
     ],
     "video_tutorials": [
@@ -481,10 +526,10 @@
     ]
   },
   "statistics": {
-    "total_resources": 53,
+    "total_resources": 58,
     "by_category": {
-      "blog_posts": 25,
-      "github_repositories": 13,
+      "blog_posts": 28,
+      "github_repositories": 15,
       "video_tutorials": 3,
       "case_studies": 0,
       "tools_and_plugins": 10

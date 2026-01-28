@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-22",
-  "version": "1.1.7",
+  "last_updated": "2026-01-24",
+  "version": "1.1.8",
   "resources": {
     "blog_posts": [
       {
@@ -227,6 +227,15 @@
         "publish_date": "2026-01-14",
         "tags": ["cursor", "bug", "rules", "skills", "skilmd", "workflow"],
         "added_date": "2026-01-22"
+      },
+      {
+        "title": "Subagents, Skills, and Image Generation (Cursor Changelog 2.4)",
+        "url": "https://cursor.com/changelog/2-4",
+        "description": "Cursor 2.4 更新日志：宣布在编辑器与 CLI 支持 Agent Skills（SKILL.md），并对比 Skills vs Rules 的适用场景，同时引入 Subagents 等 agent harness 能力",
+        "author": "Cursor",
+        "publish_date": "2026-01-22",
+        "tags": ["official", "cursor", "changelog", "skills", "agent-skills", "skilmd", "subagents"],
+        "added_date": "2026-01-24"
       }
     ],
     "github_repositories": [
@@ -328,6 +337,24 @@
         "publish_date": null,
         "tags": ["github", "examples", "agent-skills", "skilmd", "framework", "anthropic"],
         "added_date": "2026-01-22"
+      },
+      {
+        "title": "alirezarezvani/claude-code-skill-factory",
+        "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+        "description": "面向批量生产/部署的 Claude Skills & Agents 工具箱：生成结构化 SKILL.md 模板，自动化构建 Skills/Agents/Slash Commands/Hooks/Prompts，强调验证与分发流程",
+        "author": "alirezarezvani",
+        "publish_date": null,
+        "tags": ["tool", "generator", "templates", "skills", "agent-skills", "skilmd", "claude-code", "automation", "github"],
+        "added_date": "2026-01-24"
+      },
+      {
+        "title": "intellectronica/gemini-cli-skillz",
+        "url": "https://github.com/intellectronica/gemini-cli-skillz",
+        "description": "Gemini CLI 扩展：通过 skillz MCP server 在 Gemini CLI 中运行 Anthropic-style Agent Skills，可复用同一份 skills 目录",
+        "author": "intellectronica",
+        "publish_date": null,
+        "tags": ["tool", "mcp", "gemini-cli", "skills", "agent-skills", "skilmd", "github"],
+        "added_date": "2026-01-24"
       }
     ],
     "video_tutorials": [
@@ -481,10 +508,10 @@
     ]
   },
   "statistics": {
-    "total_resources": 53,
+    "total_resources": 56,
     "by_category": {
-      "blog_posts": 25,
-      "github_repositories": 13,
+      "blog_posts": 26,
+      "github_repositories": 15,
       "video_tutorials": 3,
       "case_studies": 0,
       "tools_and_plugins": 10

@@ -231,6 +231,14 @@
   - 标签：官方、Codex、更新日志、Skills、SKILL.md
   - 添加日期：2026-01-22
 
+- **Subagents, Skills, and Image Generation（Cursor Changelog 2.4）**
+  - 链接：https://cursor.com/changelog/2-4
+  - 描述：Cursor 2.4 更新日志：宣布在编辑器与 CLI 支持 Agent Skills（SKILL.md），并对比 Skills vs Rules 的适用场景，同时引入 Subagents 等 agent harness 能力
+  - 作者：Cursor
+  - 发布日期：2026-01-22
+  - 标签：官方、更新日志、Cursor、Skills、SKILL.md、Subagents
+  - 添加日期：2026-01-24
+
 - **Skills vs. Commands [vs. Rules]（Cursor 社区讨论）**
   - 链接：https://forum.cursor.com/t/skills-vs-commands-vs-rules/148875
   - 描述：梳理 Rules / Commands / Skills / Subagents 的定位差异（含“Skills 是开放标准、nightly 才有”等关键点），适合作为选型与团队共识材料
